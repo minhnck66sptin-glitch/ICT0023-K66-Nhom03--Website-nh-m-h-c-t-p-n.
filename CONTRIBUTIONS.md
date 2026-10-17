@@ -25,38 +25,37 @@ Mỗi thành viên làm việc bằng tài khoản GitHub riêng của mình.
 
 ## 2. Nhiệm vụ chi tiết
 
-### 2.1. Nguyễn Công Minh – Trưởng nhóm, HTML và CSS
+### 2.1. Nguyễn Công Minh – Trưởng nhóm
 - Điều phối nhóm, tạo repository, tạo issue giao việc cho các thành viên.
-- Xây dựng cấu trúc HTML và giao diện CSS của các trang: thanh điều hướng, chân trang, bố cục, giao diện sáng / tối.
+- Xây dựng cấu trúc HTML và giao diện CSS,JS của các trang: thanh điều hướng, chân trang, bố cục, giao diện sáng / tối,phụ trách chính trang chủ và kế hoạch.
 - Viết trang ý tưởng cá nhân `y-tuong-minh.html`.
+- Phụ trách: README.md.
+-  Quản lý quy trình GitHub: branch, Pull Request, tag / release các mốc, bật GitHub Pages.
 - **Tệp phụ trách:** `*.html`, `style.css`, `cong-viec.css`, `phan-cong.css`.
 
-### 2.2. Lý Hương Giang – JavaScript
-- Lập trình tương tác cho website: tìm kiếm, lọc, sắp xếp, chế độ Danh sách / Kanban, thống kê và cảnh báo quá hạn, kiểm tra dữ liệu form, thêm / sửa công việc và nhiệm vụ.
+### 2.2. Lý Hương Giang 
+Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính công việc và sản phẩm.
 - Viết trang ý tưởng cá nhân `y-tuong-giang.html`.
+- Phụ trách :CONTRIBUTIONS.md
 - **Tệp phụ trách:** `script.js`, `data.js`, `cong-viec.js`, `phan-cong.js`.
 
-### 2.3. Lê Thị Yến Nhi – Nội dung và kiểm thử
-- Xây dựng nội dung các trang, dữ liệu mẫu, văn bản hiển thị.
+### 2.3. Lê Thị Yến Nhi 
+Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính nhật ký.
 - Kiểm thử chức năng và giao diện trên máy tính, điện thoại và các trình duyệt; ghi lại lỗi để nhóm sửa.
-- Viết trang ý tưởng cá nhân `y-tuong-nhi.html` [bổ sung nếu có].
+- Viết trang ý tưởng cá nhân `y-tuong-nhi.html` .
+- Phụ trách:PP và báo cáo
 - **Phụ trách:** nội dung trang, dữ liệu mẫu, báo cáo kiểm thử.
 
-### 2.4. Nguyễn Phương Thanh – GitHub và tài liệu
-- Quản lý quy trình GitHub: branch, Pull Request, tag / release các mốc, bật GitHub Pages.
-- Viết và cập nhật tài liệu `README.md`, `CONTRIBUTIONS.md`, `SOURCES.md`; chuẩn bị tệp `.zip`, video YouTube.
+### 2.4. Nguyễn Phương Thanh 
+Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính phân công.
 - Viết trang ý tưởng cá nhân `y-tuong-thanh.html`.
-- **Tệp phụ trách:** `README.md`, `CONTRIBUTIONS.md`, `SOURCES.md`.
+- Phụ trách:Báo cáo và SOURCES.md.
+- **Tệp phụ trách:** `README.md`, `CONTRIBUTIONS.md`, .
 
 ### 2.5. Phần làm chung
 - Chốt đề tài, danh sách chức năng và cấu trúc website (mốc v0.1).
-- Review chéo Pull Request của nhau.
 - Quay video giới thiệu sản phẩm và kiểm tra repository, Pages, video bằng cửa sổ ẩn danh trước khi nộp.
-
----
-
 ## 3. Minh chứng trên GitHub
-
 Tất cả minh chứng nằm trong repository, có thể mở trực tiếp:
 
 | Minh chứng | Liên kết |
