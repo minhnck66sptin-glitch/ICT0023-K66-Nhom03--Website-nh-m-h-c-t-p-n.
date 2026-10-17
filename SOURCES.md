@@ -19,8 +19,8 @@
 ## 3.1. Ảnh và logo
 |Tệp |	Dùng ở |	Nguồn (URL / tự tạo) |	Chỉnh sửa | 
 |---|---|---|---|
-|`logo1.jpg` |	Logo menu và chân trang |	Tự tạo |	Cắt bo tròn |
-|`logo2.png` |	Biểu tượng tab trình duyệt (favicon) |	Tự tạo |	Cắt bo tròn |
+|`logo1.jpg` |	Logo menu và chân trang |	AI tạo trên yêu cầu của nhóm |	Cắt bo tròn |
+|`logo2.png` |	Biểu tượng tab trình duyệt (favicon) |	AI tạo trên yêu cầu của nhóm |	Cắt bo tròn |
 |`anhnhom.jpg` |	Ảnh banner trang chủ (ảnh 1) |	Nhóm tự chụp |	Không có |
 |`anh3.jpg` |	Ảnh banner trang chủ (ảnh 2) |	https://tuyensinhso.vn/images/files/tuyensinhso.vn kinh%20nghiem%20gianh%20hoc%20bong%20tu%20nam%20nhat.jpg | Không có |
 |`anh4.webp` |	Ảnh banner trang chủ (ảnh 3) |	https://tblpro.com/Data/Sites/1/News/65/3.jpg | Không có |
