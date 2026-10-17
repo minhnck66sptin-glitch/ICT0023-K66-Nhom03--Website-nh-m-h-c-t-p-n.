@@ -13,7 +13,7 @@
 |---|---|---|---|---|---|---|---|
 |Bootstrap CSS + JS bundle |	5.3.3 |	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/ | The Bootstrap Authors |	14/10/2026 |	Toàn bộ giao diện: navbar, card, modal, form, table, alert, carousel |	Không sửa thư viện; ghi đè bằng `style.css` | 	Mở từng trang, kiểm tra menu thu gọn, modal đóng/mở, carousel chạy |
 |Bootstrap Icons |	1.11.3 |	https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/ | The Bootstrap Authors |	15/10/2026 |	Biểu tượng bi-*  |	Không sửa |	Kiểm tra biểu tượng hiển thị ở cả 6 trang |
-|jQuery |	3.7.1 |	https://code.jquery.com/jquery-3.7.1.min.js | OpenJS Foundation |	16/10/2026 |	Thao tác DOM, sự kiện, hiệu ứng cuộn slider |	Không sửa |	Kiểm tra Console không báo lỗi; thử tìm kiếm, lọc, thêm/sửa/xóa |
+|jQuery |	3.7.1 |	https://www.w3schools.com/ | OpenJS Foundation |	16/10/2026 |	Thao tác DOM, sự kiện, hiệu ứng cuộn slider |	Không sửa |	Kiểm tra Console không báo lỗi; thử tìm kiếm, lọc, thêm/sửa/xóa |
 
 ## 3. Ảnh / dữ liệu
 ## 3.1. Ảnh và logo
