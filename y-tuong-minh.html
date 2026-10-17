@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Ý tưởng và kế hoạch | Nhóm 3</title>
+</head>
+<body>
+
+<h1>Ý tưởng và kế hoạch: Website "Không gian đồ án"</h1>
+<p><b>Nhóm:</b> Nhóm 3 - Học phần ICT0023 - Trường Đại học Tây Bắc</p>
+<p><b>Tình trạng:</b> Bản ý tưởng sơ khai, nộp trước khi bắt đầu làm website.</p>
+
+<ul>
+  <li><a href="#y-tuong">Phần 1. Ý tưởng trang chủ</a></li>
+  <li><a href="#ke-hoach">Phần 2. Kế hoạch thực hiện</a></li>
+</ul>
+
+<hr>
+
+<h2 id="y-tuong">PHẦN 1. Ý TƯỞNG TRANG CHỦ</h2>
+
+<h3>1.1. Vì sao nhóm muốn làm website này?</h3>
+<p>Khi làm đồ án nhóm, các bạn thường quên ai đang làm việc gì, hạn nộp là khi nào và công việc nào đã xong. Thông tin nằm rải rác trong tin nhắn nhóm nên rất khó theo dõi. Nhóm muốn làm một website nhỏ để gom tất cả vào một chỗ, ai mở lên cũng nắm được tiến độ chung.</p>
+
+<h3>1.2. Trang chủ dùng để làm gì?</h3>
+<p>Trang chủ là cửa vào của website. Người xem cần thấy ngay ba điều:</p>
+<ul>
+  <li>Đây là website của nhóm nào, làm đề tài gì.</li>
+  <li>Đồ án của nhóm đang tiến triển đến đâu.</li>
+  <li>Muốn xem chi tiết thì bấm vào đâu.</li>
+</ul>
+<p><b>Người dùng:</b> các thành viên trong nhóm (xem việc của mình, cập nhật tiến độ) và giảng viên (xem nhanh nhóm đang làm đến đâu).</p>
+
+<h3>1.3. Các phần dự kiến trên trang chủ (từ trên xuống dưới)</h3>
+<ul>
+  <li><b>Thanh menu:</b> logo, tên "KHÔNG GIAN ĐỒ ÁN - NHÓM 3", các mục Trang chủ, Kế hoạch, Công việc, Phân công, Sản phẩm, Nhật ký, và nút chuyển giao diện sáng/tối.</li>
+  <li><b>Ảnh bìa (banner):</b> vài tấm ảnh của nhóm tự chuyển qua lại, có nút trái/phải.</li>
+  <li><b>Tổng quan tiến độ:</b> bốn ô số liệu (tổng công việc, đã hoàn thành, giai đoạn xong, tỷ lệ %) và một thanh tiến độ chung.</li>
+  <li><b>Hạn gần nhất cần chú ý:</b> hiện công việc chưa xong có hạn gần nhất, gồm tên việc, người phụ trách, ngày hạn và còn bao nhiêu ngày.</li>
+  <li><b>Danh mục quản lý đồ án:</b> dãy thẻ cuộn ngang dẫn sang Kế hoạch, Công việc, Phân công, Sản phẩm.</li>
+  <li><b>Chân trang:</b> giới thiệu ngắn về nhóm, email liên hệ, địa chỉ trường, liên kết nhanh.</li>
+</ul>
+
+<h3>1.4. Chức năng mong muốn</h3>
+<ul>
+  <li>Số liệu tiến độ tự cập nhật theo dữ liệu công việc, không phải gõ tay.</li>
+  <li>Chuyển giao diện sáng/tối.</li>
+  <li>Dùng được trên điện thoại.</li>
+  <li>Bấm vào thẻ là sang đúng trang.</li>
+</ul>
+
+<h3>1.5. Công nghệ dự kiến</h3>
+<p>HTML, CSS, JavaScript, Bootstrap (làm giao diện nhanh), jQuery (xử lý sự kiện). Dữ liệu lưu tạm trong trình duyệt, chưa dùng máy chủ.</p>
+
+<h3>1.6. Những điều còn chưa chắc</h3>
+<ul>
+  <li>Chọn ảnh nào cho banner.</li>
+  <li>Màu chủ đạo của website (dự kiến xanh navy).</li>
+  <li>Có cần thêm phần nào nữa trên trang chủ hay không, sẽ hỏi ý kiến thầy.</li>
+</ul>
+
+<hr>
+
+<h2 id="ke-hoach">PHẦN 2. KẾ HOẠCH THỰC HIỆN</h2>
+
+<h3>2.1. Mục tiêu chung</h3>
+<p>Hoàn thành website theo dõi tiến độ đồ án nhóm gồm 6 trang: Trang chủ, Kế hoạch, Công việc, Phân công, Sản phẩm, Nhật ký. Website chạy được trên máy tính và điện thoại, nộp đúng hạn.</p>
+
+<h3>2.2. Ý tưởng cho trang Kế hoạch trên website</h3>
+<p>Trang này hiển thị các giai đoạn làm đồ án dưới dạng dòng thời gian từ trên xuống. Mỗi giai đoạn có tên, mục tiêu, ngày bắt đầu và kết thúc, trạng thái (Chưa bắt đầu, Đang thực hiện, Hoàn thành) và ghi chú. Chức năng dự kiến: thêm, sửa, xóa giai đoạn; tìm kiếm; lọc theo trạng thái; sắp xếp theo ngày; thanh phần trăm hoàn thành. Giai đoạn đã xong được đánh dấu màu xanh.</p>
+
+<h3>2.3. Các giai đoạn thực hiện</h3>
+<table border="1" cellpadding="6" cellspacing="0">
+  <tr>
+    <th>STT</th>
+    <th>Giai đoạn</th>
+    <th>Mục tiêu</th>
+    <th>Thời gian dự kiến</th>
+    <th>Trạng thái</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Lên ý tưởng</td>
+    <td>Chốt đề tài, các trang cần có, viết bản ý tưởng nộp thầy</td>
+    <td>Tuần 1</td>
+    <td>Đang thực hiện</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Thiết kế giao diện</td>
+    <td>Phác thảo bố cục từng trang, chọn màu và phông chữ</td>
+    <td>Tuần 2</td>
+    <td>Chưa bắt đầu</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Làm khung HTML và CSS</td>
+    <td>Dựng xong giao diện 6 trang, dùng được trên điện thoại</td>
+    <td>Tuần 3 - 4</td>
+    <td>Chưa bắt đầu</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Lập trình chức năng JavaScript</td>
+    <td>Thêm/sửa/xóa, tìm kiếm, lọc, thống kê, chế độ tối</td>
+    <td>Tuần 5 - 6</td>
+    <td>Chưa bắt đầu</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Kiểm thử và sửa lỗi</td>
+    <td>Chạy thử mọi chức năng, sửa lỗi, kiểm tra trên điện thoại</td>
+    <td>Tuần 7</td>
+    <td>Chưa bắt đầu</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Hoàn thiện và nộp bài</td>
+    <td>Viết báo cáo, nộp sản phẩm cho thầy</td>
+    <td>Tuần 8</td>
+    <td>Chưa bắt đầu</td>
+  </tr>
+</table>
+
+<h3>2.4. Phân công dự kiến</h3>
+<table border="1" cellpadding="6" cellspacing="0">
+  <tr>
+    <th>Thành viên</th>
+    <th>Việc phụ trách</th>
+  </tr>
+  <tr>
+    <td>Thành viên 1 (nhóm trưởng)</td>
+    <td>Điều phối, trang chủ, tổng hợp bài</td>
+  </tr>
+  <tr>
+    <td>Thành viên 2</td>
+    <td>Trang Kế hoạch và trang Công việc</td>
+  </tr>
+  <tr>
+    <td>Thành viên 3</td>
+    <td>Trang Phân công và trang Sản phẩm</td>
+  </tr>
+  <tr>
+    <td>Thành viên 4</td>
+    <td>Trang Nhật ký, kiểm thử, viết báo cáo</td>
+  </tr>
+</table>
+<p><small>(Tên thật của từng bạn sẽ điền vào sau khi nhóm thống nhất.)</small></p>
+
+<h3>2.5. Cách theo dõi tiến độ</h3>
+<ul>
+  <li>Mỗi tuần nhóm họp ngắn một lần để báo cáo việc đã làm.</li>
+  <li>Công việc nào xong thì đổi trạng thái ngay trên website.</li>
+  <li>Ghi lại những việc đã làm vào trang Nhật ký.</li>
+</ul>
+
+<h3>2.6. Khó khăn có thể gặp và cách xử lý</h3>
+<ul>
+  <li><b>Thành viên bận thi hoặc lịch học khác nhau:</b> chia việc nhỏ, dễ làm xen kẽ.</li>
+  <li><b>Chưa quen JavaScript:</b> học theo bài giảng, hỏi thầy và bạn trong nhóm.</li>
+  <li><b>Code của các bạn bị lệch nhau:</b> thống nhất cách đặt tên file và cách trình bày từ đầu.</li>
+</ul>
+
+<h3>2.7. Kết quả mong đợi</h3>
+<p>Một website hoàn chỉnh giúp nhóm theo dõi đồ án, cho thấy rõ ai làm gì, công việc nào đã xong, hạn nào sắp đến, và là sản phẩm cuối kỳ để nộp thầy.</p>
+
+<hr>
+<p><small>Đây là bản sơ khai, nội dung, thời gian và phân công có thể điều chỉnh theo yêu cầu của thầy.</small></p>
+
+</body>
+</html>
