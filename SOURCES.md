@@ -22,7 +22,7 @@
 |`logo1.jpg` |	Logo menu và chân trang |	AI tạo trên yêu cầu của nhóm |	Cắt bo tròn |
 |`logo2.png` |	Biểu tượng tab trình duyệt (favicon) |	AI tạo trên yêu cầu của nhóm |	Cắt bo tròn |
 |`anhnhom.jpg` |	Ảnh banner trang chủ (ảnh 1) |	Nhóm tự chụp |	Không có |
-|`anh3.jpg` |	Ảnh banner trang chủ (ảnh 2) |	https://www.ueh.edu.vn/cuoc-song-ueh/tin-tuc/ki-nang-lam-viec-nhom-hanh-trang-cho-thoi-dai-moi-70943 | Không có |
+|`anh3.jpg` |	Ảnh banner trang chủ (ảnh 2) | https://www.ueh.edu.vn/images/upload/editer/Lunar%20Landing%20Excellence%20%204.jpg| Không có |
 |`anh4.webp` |	Ảnh banner trang chủ (ảnh 3) |	https://tblpro.com/Data/Sites/1/News/65/3.jpg | Không có |
 |`anhnen.jpg` |	Ảnh thẻ trong slider "Danh mục quản lý đồ án" |	https://media.istockphoto.com/id/1306949457/vi/vec-to/nh%E1%BB%AFng-ng%C6%B0%E1%BB%9Di-%C4%91ang-t%C3%ACm-ki%E1%BA%BFm-c%C3%A1c-gi%E1%BA%A3i-ph%C3%A1p-s%C3%A1ng-t%E1%BA%A1o-kh%C3%A1i-ni%E1%BB%87m-kinh-doanh-l%C3%A0m-vi%E1%BB%87c-nh%C3%B3m-minh-h%E1%BB%8Da.jpg?s=612x612&w=0&k=20&c=7Lav2mL407Cuiv_ab2-itQstAvqTRA9vocvtkOWmBa0= |	Không có |
 ## 3.2. Dữ liệu
