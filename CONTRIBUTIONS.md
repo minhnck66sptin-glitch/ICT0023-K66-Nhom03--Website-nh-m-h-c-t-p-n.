@@ -87,30 +87,6 @@ Danh sách issue của repository: [Issues](https://github.com/minhnck66sptin-gl
 
 ---
 
-## 4. Quy ước làm việc
-
-**Branch**
-- `main` là nhánh chính, luôn ở trạng thái chạy được và là nguồn của GitHub Pages.
-- Mỗi chức năng hoặc thành viên làm trên nhánh riêng, đặt tên theo dạng `feat/<chuc-nang>`, `fix/<loi>`, `docs/<tai-lieu>`.
-
-**Commit**
-- Nhỏ, đúng nội dung, theo dạng `loại: mô tả`.
-- Các loại thường dùng: `feat` (thêm chức năng), `fix` (sửa lỗi), `style` (giao diện), `docs` (tài liệu), `refactor` (tổ chức lại mã).
-- Ví dụ: `feat: thêm bộ lọc công việc theo trạng thái`, `fix: sửa menu trên điện thoại`.
-- Không tạo commit rỗng, không chia vụn hình thức để tăng số lượng.
-
-**Pull Request**
-- Thay đổi quan trọng hợp nhất vào `main` qua Pull Request, liên kết với issue tương ứng.
-- Mỗi Pull Request cần ít nhất **một người khác** review trước khi merge; tác giả không tự duyệt PR của mình.
-
-**Mốc phiên bản**
-- Tạo tag / release ngay khi hoàn thành mỗi mốc: `v0.1-y-tuong`, `v0.2-html`, `v0.3-giao-dien`, `v0.4-tuong-tac`, `v1.0-final`.
-- Không xóa, không sửa lại tag và không viết lại lịch sử sau khi đã tạo.
-
-**An toàn**
-- Không đưa mật khẩu, token, khóa API hoặc dữ liệu cá nhân thật lên repository.
-
----
 
 ## 5. Đóng góp theo từng mốc phiên bản
 
@@ -124,26 +100,3 @@ Danh sách issue của repository: [Issues](https://github.com/minhnck66sptin-gl
 
 ---
 
-## 6. Tỷ lệ đóng góp
-
-| Thành viên | Tỷ lệ | Ghi chú |
-| --- | --- | --- |
-| Nguyễn Công Minh | [..]% | |
-| Lý Hương Giang | [..]% | |
-| Lê Thị Yến Nhi | [..]% | |
-| Nguyễn Phương Thanh | [..]% | |
-| **Tổng** | **100%** | Do cả nhóm thống nhất |
-
-Tỷ lệ chỉ mang tính tham khảo; căn cứ chính là issue, Pull Request và commit nêu ở mục 3.
-
----
-
-## 7. Khó khăn và bài học
-
-- **Khó khăn:** [ví dụ: xung đột khi nhiều người sửa cùng một tệp; lỗi hiển thị trên điện thoại; cấu hình GitHub Pages]
-- **Cách nhóm giải quyết:** [ví dụ: chia nhánh riêng, review chéo trước khi merge, kiểm thử trên nhiều thiết bị]
-- **Bài học rút ra:** [điền]
-
----
-
-*ICT0023 – K66 · Nhóm 03 · Trường Đại học Tây Bắc · 2026*
