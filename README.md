@@ -5,8 +5,7 @@
 > **Học phần:** ICT0023 – K66
 > **Nhóm thực hiện:** Nhóm 03
 > **Tên repository:** `ICT0023-K66-Nhom03--Website-nhom3doanhoctap`
-> **Giảng viên hướng dẫn:** [Điền tên giảng viên]
-> **Đơn vị:** Trường Đại học Tây Bắc, tỉnh Sơn La – Sinh viên Sư phạm Tin học
+
 
 ---
 
