@@ -71,7 +71,7 @@ Website gồm 6 trang, dùng chung thanh điều hướng, chân trang và nút 
 | Sản phẩm | `san-pham.html` | Tổng hợp sản phẩm; công việc ở trạng thái **Hoàn thành** tự hiện ở đây |
 | Nhật ký | `nhat-ky.html` | Nhật ký hoạt động của nhóm |
 
-Ngoài ra có các trang ý tưởng của từng thành viên (mốc v0.1): `y-tuong-minh.html`, `y-tuong-giang.html`, `y-tuong-thanh.html`.
+Ngoài ra có các trang ý tưởng của từng thành viên (mốc v0.1): `y-tuong-minh.html`, `y-tuong-giang.html`, `y-tuong-thanh.html`,`y-tuong-nhi.html`.
 
 **Trang Công việc**
 
