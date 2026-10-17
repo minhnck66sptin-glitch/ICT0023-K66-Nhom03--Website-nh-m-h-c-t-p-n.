@@ -14,8 +14,8 @@ Tệp này ghi rõ **ai làm gì** và **minh chứng ở đâu**. Giới thiệ
 
 | STT | Họ và tên | Mã sinh viên | Tài khoản GitHub | Vai trò | Nhiệm vụ chính |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Nguyễn Công Minh | 2025A0577 | [@minhnck66sptin-glitch](https://github.com/minhnck66sptin-glitch) | Trưởng nhóm | Điều phối; code chính HTML và CSS |
-| 2 | Lý Hương Giang | 2025A0561 | [@gianglhk66sptin-spec](https://github.com/gianglhk66sptin-spec) | Thành viên | Code chính JavaScript |
+| 1 | Nguyễn Công Minh | 2025A0577 | [@minhnck66sptin-glitch](https://github.com/minhnck66sptin-glitch) | Trưởng nhóm | Điều phối;  Code chính JavaScript |
+| 2 | Lý Hương Giang | 2025A0561 | [@gianglhk66sptin-spec](https://github.com/gianglhk66sptin-spec) | Thành viên |code chính HTML và CSS |
 | 3 | Lê Thị Yến Nhi | 2025A0585 | [@nhiltyk66sptin](https://github.com/nhiltyk66sptin) | Thành viên | Nội dung và kiểm thử |
 | 4 | Nguyễn Phương Thanh | 2025A0594 | [@thanhnpk66sptin-ux](https://github.com/thanhnpk66sptin-ux) | Thành viên | GitHub và tài liệu |
 
