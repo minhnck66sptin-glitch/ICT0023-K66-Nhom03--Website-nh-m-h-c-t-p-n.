@@ -78,12 +78,12 @@ Danh sách issue của repository: [Issues](https://github.com/minhnck66sptin-gl
 
 ### 3.2. Branch và Pull Request theo thành viên
 
-| Thành viên | Branch đã dùng | Pull Request | Người review |
+| Thành viên | Branch đã dùng | 
 | --- | --- | --- | --- |
-| Nguyễn Công Minh | [điền tên branch] | [điền số PR] | [điền] |
-| Lý Hương Giang | [`feature/Lý-Hương-Giang`](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/tree/feature/L%C3%BD-H%C6%B0%C6%A1ng-Giang) | [điền số PR] | [điền] |
-| Lê Thị Yến Nhi | [điền tên branch] | [điền số PR] | [điền] |
-| Nguyễn Phương Thanh | [điền tên branch] | [điền số PR] | [điền] |
+| Nguyễn Công Minh | [điền tên branch] | 
+| Lý Hương Giang | [`feature/Lý-Hương-Giang`](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/tree/feature/L%C3%BD-H%C6%B0%C6%A1ng-Giang) | 
+| Lê Thị Yến Nhi | [điền tên branch] | 
+| Nguyễn Phương Thanh | [điền tên branch] | 
 
 ---
 
