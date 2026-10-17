@@ -67,36 +67,5 @@ Tất cả minh chứng nằm trong repository, có thể mở trực tiếp:
 | Mốc phiên bản | [tags](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/tags) · [releases](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases) |
 | Biểu đồ đóng góp theo thành viên | [Insights → Contributors](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/graphs/contributors) |
 
-### 3.1. Issue
 
-Danh sách issue của repository: [Issues](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/issues).
-
-| Issue | Nội dung | Ngày mở | Người phụ trách |
-| --- | --- | --- | --- |
-| [#..] | [Điền tiêu đề issue] | [dd/mm/2026] | [Điền tên] |
-| [#..] | [Điền tiêu đề issue] | [dd/mm/2026] | [Điền tên] |
-
-### 3.2. Branch và Pull Request theo thành viên
-
-| Thành viên | Branch đã dùng | 
-| --- | --- | --- | --- |
-| Nguyễn Công Minh | [điền tên branch] | 
-| Lý Hương Giang | [`feature/Lý-Hương-Giang`](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/tree/feature/L%C3%BD-H%C6%B0%C6%A1ng-Giang) | 
-| Lê Thị Yến Nhi | [điền tên branch] | 
-| Nguyễn Phương Thanh | [điền tên branch] | 
-
----
-
-
-## 5. Đóng góp theo từng mốc phiên bản
-
-| Mốc | Tag | Nội dung chính | Người thực hiện | Ngày |
-| --- | --- | --- | --- | --- |
-| v0.1 | `v0.1-y-tuong` | Mỗi thành viên một trang ý tưởng; chốt đề tài và danh sách chức năng | Cả nhóm (Minh, Giang, Thanh, Nhi) | [dd/mm/2026] |
-| v0.2 | `v0.2-html` | Khung HTML các trang, thanh điều hướng, cấu trúc nội dung | Minh (chính), Nhi (nội dung) | [dd/mm/2026] |
-| v0.3 | `v0.3-giao-dien` | CSS, Bootstrap, responsive, giao diện sáng / tối | Minh (chính), Nhi (kiểm thử giao diện) | [dd/mm/2026] |
-| v0.4 | `v0.4-tuong-tac` | JavaScript: tìm kiếm, lọc, sắp xếp, Kanban, kiểm tra form, thống kê | Giang (chính), Nhi (kiểm thử) | [dd/mm/2026] |
-| v1.0 | `v1.0-final` | Bản hoàn chỉnh, README, CONTRIBUTIONS, SOURCES, video, Pages | Thanh (chính), cả nhóm rà soát | [dd/mm/2026] |
-
----
 
