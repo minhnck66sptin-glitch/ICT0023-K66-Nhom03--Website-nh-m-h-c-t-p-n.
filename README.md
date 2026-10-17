@@ -23,7 +23,7 @@
 
 | STT | Sản phẩm | Mô tả | Liên kết / Vị trí |
 | --- | --- | --- | --- |
-| 1 | **Repository GitHub** (Public) | Mã nguồn, lịch sử commit, issue, Pull Request, các mốc phiên bản | [github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan) |
+| 1 | **Repository GitHub** (Public) | Mã nguồn, lịch sử commit, issue, Pull Request, các mốc phiên bản | [github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nh-m-h-c-t-p-n./blob/main/README.md/) |
 | 2 | **Website (GitHub Pages)** | Website chạy trực tuyến | [minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Websitenhomhoctapdoan](https://minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/) |
 | 3 | **Video YouTube** | Video giới thiệu và demo sản phẩm | [Dán link YouTube tại đây] |
 | 4 | **Tệp nén `.zip`** | Toàn bộ mã nguồn và sản phẩm, nộp qua LMS | `ICT0023-K66-Nhom03--Websitenhomhoctapdoan.zip` |
