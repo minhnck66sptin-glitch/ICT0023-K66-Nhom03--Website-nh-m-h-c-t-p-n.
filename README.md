@@ -24,7 +24,7 @@
 | STT | Sản phẩm | Mô tả | Liên kết / Vị trí |
 | --- | --- | --- | --- |
 | 1 | **Repository GitHub** (Public) | Mã nguồn, lịch sử commit, issue, Pull Request, các mốc phiên bản | [github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap) |
-| 2 | **Website (GitHub Pages)** | Website chạy trực tuyến | [minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap](https://minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/) |
+| 2 | **Website (GitHub Pages)** | Website chạy trực tuyến | [minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap](http://127.0.0.1:5502/index.html/) |
 | 3 | **Video YouTube** | Video giới thiệu và demo sản phẩm | [Dán link YouTube tại đây] |
 | 4 | **Tệp nén `.zip`** | Toàn bộ mã nguồn và sản phẩm, nộp qua LMS | `ICT0023-K66-Nhom03--Website-nhom3doanhoctap.zip` |
 | 5 | **Link Google Drive** | Chỉ dùng nếu tệp `.zip` quá lớn, không tải lên LMS được | [Dán link Google Drive tại đây nếu cần] |
