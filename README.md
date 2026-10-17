@@ -16,7 +16,10 @@
 
 | STT | Họ và tên | Mã sinh viên | Tài khoản GitHub | Vai trò | Nhiệm vụ chính phân công |
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | Nguyễn Công Minh | 2025A0577 | [@minhnc](https://github.com/minhnck66sptin-glitch) | Trưởng nhóm | 
+| 1 | Nguyễn Công Minh | 2025A0577 | [@minhnc](https://github.com/minhnck66sptin-glitch) | Trưởng nhóm | Tạo cấu trúc các trang: trang chủ,kế hoạch
+Làm menu điều hướng, chân trang.
+Thiết kế giao diện, màu sắc và responsive.
+Tạo bộ khung dùng chung cho cả nhóm.
 | 2 | Lý Hương Giang | 2025A0561 | [@gianglh](https://github.com/gianglhk66sptin-spec) | Thành viên | 
 | 3 | Lê Thị Yến Nhi | 2025A0585 | [@nhilty](https://github.com/nhiltyk66sptin)| Thành viên | 
 | 4 | Nguyễn Phương Thanh | 2025A0594 | [@thanhnp](https://github.com/thanhnpk66sptin-ux) | Thành viên | 
