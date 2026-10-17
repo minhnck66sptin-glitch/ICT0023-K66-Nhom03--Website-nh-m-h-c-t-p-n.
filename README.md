@@ -36,17 +36,11 @@
 | 11 | **Đóng góp của thành viên** | Phân công, minh chứng, quy ước làm việc | [CONTRIBUTIONS.md](./CONTRIBUTIONS.md) |
 | 12 | **Nguồn tài nguyên** | Thư viện, font, hình ảnh sử dụng | [SOURCES.md](./SOURCES.md) |
 
-**Ghi chú nộp bài**
-
-- Nộp qua **LMS**: tệp `.zip` mã nguồn và các sản phẩm.
-- Nếu `.zip` quá lớn không tải lên LMS được: chia sẻ qua **Google Drive** (quyền “Bất kỳ ai có đường liên kết đều xem được”) và dán link ở dòng 5 của bảng trên.
-- Video đăng trên **YouTube** (chế độ Công khai hoặc Không công khai), link ở dòng 3.
-- Đã kiểm tra repository, GitHub Pages và video bằng cửa sổ ẩn danh trước khi nộp.
 
 ---
 
 
-## 4. Chức năng chính
+## 3. Chức năng chính
 
 Website gồm 6 trang, dùng chung thanh điều hướng, chân trang và nút chuyển giao diện sáng / tối.
 
@@ -95,7 +89,6 @@ Ngoài ra có các trang ý tưởng của từng thành viên (mốc v0.1): `y-
 | v0.4 | `v0.4-tuong-tac` | JavaScript: tìm kiếm, lọc, sắp xếp, Kanban, form kiểm tra dữ liệu, thống kê | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.4-tuong-tac) |
 | v1.0 | `v1.0-final` | Bản hoàn chỉnh nộp chấm, đã kiểm thử và hoàn thiện tài liệu | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v1.0-final) |
 
-Các mốc không bị xóa hoặc sửa lại sau khi tạo.
 
 ---
 
