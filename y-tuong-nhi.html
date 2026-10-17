@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ý tưởng trang Nhật ký | Nhóm 3</title>
+</head>
+<body>
+
+    <h1>Ý tưởng sơ khai: Trang Nhật ký hoạt động của Nhóm 3</h1>
+    <p><em>Học phần ICT0023 - Nhóm 3 - Trường Đại học Tây Bắc, tỉnh Sơn La</em></p>
+    <p><strong>Lưu ý:</strong> Đây là bản ý tưởng ban đầu, nộp cho thầy khi nhóm chưa bắt tay làm website.
+    Nội dung bên dưới chỉ mô tả dự định, chưa có giao diện (CSS) và chưa có chức năng thật.</p>
+
+    <hr>
+
+    <h2>1. Website của nhóm là gì?</h2>
+    <p>
+        Nhóm dự định xây dựng website tên <strong>"Không gian đồ án - Nhóm 3"</strong>
+        để theo dõi tiến độ làm đồ án nhóm. Website gồm nhiều trang:
+    </p>
+    <ul>
+        <li>Trang chủ: giới thiệu nhóm và tổng quan đồ án.</li>
+        <li>Kế hoạch: các mốc thời gian của đồ án.</li>
+        <li>Công việc: danh sách việc cần làm và trạng thái từng việc.</li>
+        <li>Phân công: ai phụ trách phần nào.</li>
+        <li>Sản phẩm: các kết quả, sản phẩm nhóm đã hoàn thành.</li>
+        <li><strong>Nhật ký: trang mà tài liệu này nói đến.</strong></li>
+    </ul>
+
+    <h2>2. Ý tưởng của trang Nhật ký</h2>
+
+    <h3>2.1. Trang này dùng để làm gì?</h3>
+    <p>
+        Trang Nhật ký là nơi các thành viên <strong>ghi lại công việc mình đã làm</strong> theo từng ngày,
+        để cả nhóm và giảng viên có thể xem lại quá trình làm việc và sự phối hợp giữa các thành viên.
+    </p>
+
+    <h3>2.2. Vì sao nhóm muốn làm trang này?</h3>
+    <ul>
+        <li>Làm đồ án nhóm thường khó biết ai đã làm gì, làm vào lúc nào.</li>
+        <li>Ghi nhật ký giúp việc đóng góp của mỗi người được minh bạch.</li>
+        <li>Giúp nhóm nhìn lại quá trình, rút kinh nghiệm cho những lần sau.</li>
+        <li>Giúp giảng viên theo dõi tiến độ của nhóm dễ hơn.</li>
+    </ul>
+
+    <h3>2.3. Mỗi bản ghi nhật ký sẽ có những thông tin gì?</h3>
+    <table border="1" cellpadding="6" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Thông tin</th>
+                <th>Ý nghĩa</th>
+                <th>Bắt buộc?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ngày thực hiện</td>
+                <td>Ngày thành viên làm công việc đó (không được chọn ngày ở tương lai)</td>
+                <td>Có</td>
+            </tr>
+            <tr>
+                <td>Người ghi nhật ký</td>
+                <td>Chọn tên thành viên trong nhóm</td>
+                <td>Có</td>
+            </tr>
+            <tr>
+                <td>Tiêu đề hoạt động</td>
+                <td>Tên ngắn gọn của việc đã làm, ví dụ: "Hoàn thiện giao diện website"</td>
+                <td>Có</td>
+            </tr>
+            <tr>
+                <td>Nội dung hoạt động</td>
+                <td>Mô tả chi tiết hơn việc đã thực hiện</td>
+                <td>Có</td>
+            </tr>
+            <tr>
+                <td>Kết quả đạt được</td>
+                <td>Việc làm đó đã đem lại kết quả gì</td>
+                <td>Không</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. Các chức năng nhóm dự định làm</h2>
+    <ol>
+        <li>
+            <strong>Thêm nhật ký:</strong> có một biểu mẫu để thành viên nhập các thông tin ở bảng trên.
+            Khi nhập thiếu hoặc nhập sai (ví dụ tiêu đề quá ngắn), trang sẽ báo lỗi để người dùng sửa.
+        </li>
+        <li>
+            <strong>Xem danh sách nhật ký:</strong> các bản ghi hiện ra dưới dạng từng thẻ,
+            bản ghi mới nhất nằm trên cùng. Có hiển thị tổng số nhật ký của nhóm.
+        </li>
+        <li>
+            <strong>Tìm kiếm:</strong> gõ từ khóa để tìm theo tiêu đề, nội dung hoặc kết quả.
+        </li>
+        <li>
+            <strong>Lọc theo người ghi:</strong> chọn một thành viên để chỉ xem nhật ký của người đó.
+        </li>
+        <li>
+            <strong>Xóa nhật ký:</strong> xóa bản ghi bị ghi nhầm (có hỏi xác nhận trước khi xóa).
+        </li>
+        <li>
+            <strong>Dữ liệu mẫu:</strong> một nút nạp sẵn vài bản ghi mẫu để dễ trình bày và kiểm tra trang.
+        </li>
+        <li>
+            <strong>Chế độ sáng/tối:</strong> người xem có thể đổi giao diện cho dễ đọc
+            (chức năng này dùng chung cho cả website).
+        </li>
+    </ol>
+
+    <h2>4. Bố cục dự kiến của trang (mô tả bằng chữ)</h2>
+    <ol>
+        <li>Thanh menu phía trên để chuyển giữa các trang của website.</li>
+        <li>Tiêu đề trang: "Nhật ký hoạt động Nhóm 3" kèm một câu giới thiệu ngắn.</li>
+        <li>Khung "Thêm nhật ký hoạt động" với biểu mẫu nhập.</li>
+        <li>Khung "Nhật ký của nhóm": ô tìm kiếm, ô lọc theo người ghi, rồi danh sách các thẻ nhật ký.</li>
+        <li>Chân trang: thông tin nhóm, thông tin liên hệ và các liên kết nhanh.</li>
+    </ol>
+
+    <h2>5. Công nghệ nhóm dự định dùng</h2>
+    <ul>
+        <li><strong>HTML:</strong> xây dựng cấu trúc nội dung trang.</li>
+        <li><strong>CSS (Bootstrap):</strong> trình bày giao diện đẹp, hiển thị tốt trên cả máy tính và điện thoại.</li>
+        <li><strong>JavaScript (jQuery):</strong> xử lý thêm, xóa, tìm kiếm, lọc và kiểm tra dữ liệu nhập.</li>
+    </ul>
+
+    <h2>6. Kế hoạch thực hiện (dự kiến)</h2>
+    <ol>
+        <li>Nộp ý tưởng cho thầy (tài liệu này).</li>
+        <li>Nghe góp ý của thầy và chỉnh sửa ý tưởng nếu cần.</li>
+        <li>Dựng khung HTML cho trang Nhật ký.</li>
+        <li>Thêm giao diện bằng CSS.</li>
+        <li>Viết JavaScript cho các chức năng.</li>
+        <li>Kiểm tra lại, sửa lỗi và hoàn thiện.</li>
+    </ol>
+
+    <h2>7. Kết luận</h2>
+    <p>
+        Trang Nhật ký giúp nhóm ghi lại và theo dõi quá trình làm đồ án một cách rõ ràng.
+        Đây mới chỉ là ý tưởng ban đầu, nhóm rất mong nhận được góp ý của thầy để hoàn thiện hơn.
+    </p>
+
+    <hr>
+    <p><small>Nhóm 3 - ICT0023 - Trường Đại học Tây Bắc</small></p>
+
+</body>
+</html>
