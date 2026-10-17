@@ -78,7 +78,7 @@ Ngoài ra có các trang ý tưởng của từng thành viên (mốc v0.1): `y-
 - Giao diện responsive (Bootstrap), chuyển chế độ sáng / tối.
 - Thông báo nổi sau các thao tác
 
-## 9. Các mốc phiên bản
+## 4. Các mốc phiên bản
 
 | Mốc | Tag | Nội dung | Ngày | Liên kết |
 | --- | --- | --- | --- | --- |
