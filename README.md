@@ -45,18 +45,6 @@
 
 ---
 
-## 3. Thành viên và phân công
-
-| STT | Họ và tên | Mã sinh viên | Tài khoản GitHub | Vai trò | Nhiệm vụ chính |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Nguyễn Công Minh | 2025A0577 | [@minhnck66sptin-glitch](https://github.com/minhnck66sptin-glitch) | Trưởng nhóm | Điều phối nhóm; code chính javascript |
-| 2 | Lý Hương Giang | 2025A0561 | [@gianglhk66sptin-spec](https://github.com/gianglhk66sptin-spec) | Thành viên | code chính HTML và CSS |
-| 3 | Lê Thị Yến Nhi | 2025A0585 | [@nhiltyk66sptin](https://github.com/nhiltyk66sptin) | Thành viên | Nội dung và kiểm thử |
-| 4 | Nguyễn Phương Thanh | 2025A0594 | [@thanhnpk66sptin-ux](https://github.com/thanhnpk66sptin-ux) | Thành viên | GitHub và tài liệu |
-
-Chi tiết nhiệm vụ, minh chứng (issue, branch, Pull Request) và quy ước làm việc xem tại [CONTRIBUTIONS.md](./CONTRIBUTIONS.md).
-
----
 
 ## 4. Chức năng chính
 
@@ -95,76 +83,7 @@ Ngoài ra có các trang ý tưởng của từng thành viên (mốc v0.1): `y-
 **Chung**
 
 - Giao diện responsive (Bootstrap), chuyển chế độ sáng / tối.
-- Thông báo nổi sau các thao tác.
-
----
-
-## 5. Công nghệ sử dụng
-
-| Nhóm | Công nghệ |
-| --- | --- |
-| Ngôn ngữ | HTML5, CSS3, JavaScript (ES6) |
-| Thư viện giao diện | Bootstrap 5.3.3, Bootstrap Icons 1.11.3 |
-| Thư viện JavaScript | jQuery 3.7.1 |
-| Font chữ | Be Vietnam Pro (Google Fonts) |
-| Quản lý mã nguồn | Git, GitHub (issue, branch, Pull Request, tag / release) |
-| Triển khai | GitHub Pages |
-
-Bootstrap, Bootstrap Icons, jQuery và Google Fonts được nạp qua CDN nên cần kết nối Internet khi mở website.
-
----
-
-## 6. Cấu trúc thư mục
-
-```text
-ICT0023-K66-Nhom03--Website-nhom3doanhoctap/
-├── index.html            # Trang chủ
-├── ke-hoach.html         # Kế hoạch
-├── cong-viec.html        # Quản lý công việc
-├── phan-cong.html        # Phân công nhiệm vụ
-├── san-pham.html         # Sản phẩm
-├── nhat-ky.html          # Nhật ký hoạt động
-├── y-tuong-minh.html     # Ý tưởng ban đầu (v0.1)
-├── y-tuong-giang.html
-├── y-tuong-thanh.html
-├── style.css             # CSS dùng chung
-├── cong-viec.css         # CSS riêng trang Công việc
-├── phan-cong.css         # CSS riêng trang Phân công
-├── data.js               # Dữ liệu dùng chung
-├── script.js             # JavaScript dùng chung (menu, giao diện sáng/tối, thông báo)
-├── cong-viec.js          # JavaScript trang Công việc
-├── phan-cong.js          # JavaScript trang Phân công
-├── image/                # Logo và hình ảnh
-├── README.md             # Tài liệu này
-├── CONTRIBUTIONS.md      # Đóng góp của từng thành viên
-└── SOURCES.md            # Nguồn tài nguyên sử dụng
-```
-
----
-
-## 7. Cách chạy
-
-**Xem trực tuyến:** mở [GitHub Pages](https://minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/).
-
-**Chạy trên máy:**
-
-1. Giải nén tệp `.zip` (hoặc `git clone https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap.git`).
-2. Mở thư mục bằng Visual Studio Code, chuột phải `index.html` → **Open with Live Server**; hoặc mở thẳng `index.html` bằng trình duyệt.
-3. Cần Internet để tải Bootstrap, jQuery và font.
-
-Không cần cài đặt thêm phần mềm hay máy chủ.
-
----
-
-## 8. Quy trình làm việc trên GitHub
-
-- **Issue:** công việc của nhóm được ghi và giao bằng issue, xem tại [Issues](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/issues). Mỗi issue nêu rõ nội dung công việc và người phụ trách.
-
-- **Branch:** làm việc trên nhánh riêng theo chức năng hoặc thành viên, hợp nhất vào `main` qua Pull Request và có người khác review.
-- **Commit:** nhỏ, đúng nội dung, theo dạng `loại: mô tả`, ví dụ `feat: thêm bộ lọc công việc`, `fix: sửa menu trên điện thoại`, `docs: cập nhật README`.
-- Không tạo commit rỗng; không viết lại lịch sử để xóa phiên bản đã đánh giá.
-
----
+- Thông báo nổi sau các thao tác
 
 ## 9. Các mốc phiên bản
 
@@ -180,26 +99,4 @@ Các mốc không bị xóa hoặc sửa lại sau khi tạo.
 
 ---
 
-## 10. Nguồn tài nguyên
 
-| Tài nguyên | Giấy phép | Nguồn |
-| --- | --- | --- |
-| Bootstrap 5.3.3 | MIT | [getbootstrap.com](https://getbootstrap.com/) |
-| Bootstrap Icons 1.11.3 | MIT | [icons.getbootstrap.com](https://icons.getbootstrap.com/) |
-| jQuery 3.7.1 | MIT | [jquery.com](https://jquery.com/) |
-| Font Be Vietnam Pro | SIL Open Font License 1.1 | [Google Fonts](https://fonts.google.com/specimen/Be+Vietnam+Pro) |
-| Logo (`image/logo1.jpg`, `image/logo2.png`) | [Ghi tác giả / nguồn] | [Ghi nguồn] |
-
-Danh sách đầy đủ xem tại [SOURCES.md](./SOURCES.md).
-
----
-
-## 11. Lưu ý
-
-- Repository **không chứa** mật khẩu, token, khóa API hoặc dữ liệu cá nhân thật.
-- Dữ liệu trong website là dữ liệu mẫu phục vụ học tập.
-- Website chạy hoàn toàn phía trình duyệt, không có máy chủ riêng.
-
----
-
-*ICT0023 – K66 · Nhóm 03 · Trường Đại học Tây Bắc · 2026*
