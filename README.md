@@ -4,7 +4,7 @@
 
 > **Học phần:** ICT0023 – K66
 > **Nhóm thực hiện:** Nhóm 03
-> **Tên repository:** `ICT0023-K66-Nhom03--Websitenhomhoctapdoan`
+> **Tên repository:** `ICT0023-K66-Nhom03--Website-nhom3doanhoctap`
 > **Giảng viên hướng dẫn:** [Điền tên giảng viên]
 > **Đơn vị:** Trường Đại học Tây Bắc, tỉnh Sơn La – Sinh viên Sư phạm Tin học
 
@@ -23,16 +23,16 @@
 
 | STT | Sản phẩm | Mô tả | Liên kết / Vị trí |
 | --- | --- | --- | --- |
-| 1 | **Repository GitHub** (Public) | Mã nguồn, lịch sử commit, issue, Pull Request, các mốc phiên bản | [github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nh-m-h-c-t-p-n./blob/main/README.md/) |
-| 2 | **Website (GitHub Pages)** | Website chạy trực tuyến | [minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Websitenhomhoctapdoan](https://minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/) |
+| 1 | **Repository GitHub** (Public) | Mã nguồn, lịch sử commit, issue, Pull Request, các mốc phiên bản | [github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap) |
+| 2 | **Website (GitHub Pages)** | Website chạy trực tuyến | [minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap](https://minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/) |
 | 3 | **Video YouTube** | Video giới thiệu và demo sản phẩm | [Dán link YouTube tại đây] |
-| 4 | **Tệp nén `.zip`** | Toàn bộ mã nguồn và sản phẩm, nộp qua LMS | `ICT0023-K66-Nhom03--Websitenhomhoctapdoan.zip` |
+| 4 | **Tệp nén `.zip`** | Toàn bộ mã nguồn và sản phẩm, nộp qua LMS | `ICT0023-K66-Nhom03--Website-nhom3doanhoctap.zip` |
 | 5 | **Link Google Drive** | Chỉ dùng nếu tệp `.zip` quá lớn, không tải lên LMS được | [Dán link Google Drive tại đây nếu cần] |
-| 6 | **Lịch sử commit** | Toàn bộ commit trên nhánh `main` | [Commits](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/commits/main) |
-| 7 | **Issue** | Công việc được giao cho từng thành viên | [Issues](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/issues) |
-| 8 | **Pull Request** | Các thay đổi được hợp nhất và review | [Pull requests](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/pulls?q=is%3Apr) |
-| 9 | **Branch** | Các nhánh theo chức năng / thành viên | [Branches](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/branches) |
-| 10 | **Mốc phiên bản** | 5 tag / release (xem mục 9) | [Tags](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/tags) · [Releases](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/releases) |
+| 6 | **Lịch sử commit** | Toàn bộ commit trên nhánh `main` | [Commits](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/commits/main) |
+| 7 | **Issue** | Công việc được ghi và giao cho thành viên | [Issues](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/issues) |
+| 8 | **Pull Request** | Các thay đổi được hợp nhất và review | [Pull requests](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/pulls?q=is%3Apr) |
+| 9 | **Branch** | Các nhánh theo chức năng / thành viên | [Branches](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/branches) |
+| 10 | **Mốc phiên bản** | 5 tag / release (xem mục 9) | [Tags](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/tags) · [Releases](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases) |
 | 11 | **Đóng góp của thành viên** | Phân công, minh chứng, quy ước làm việc | [CONTRIBUTIONS.md](./CONTRIBUTIONS.md) |
 | 12 | **Nguồn tài nguyên** | Thư viện, font, hình ảnh sử dụng | [SOURCES.md](./SOURCES.md) |
 
@@ -49,10 +49,10 @@
 
 | STT | Họ và tên | Mã sinh viên | Tài khoản GitHub | Vai trò | Nhiệm vụ chính |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Nguyễn Công Minh | 2025A0577 | [@minhnck66sptin-glitch](https://github.com/minhnck66sptin-glitch) | Trưởng nhóm | Điều phối nhóm; code chính HTML và CSS ([Issue #3](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/issues/3)) |
-| 2 | Lý Hương Giang | 2025A0561 | [@gianglhk66sptin-spec](https://github.com/gianglhk66sptin-spec) | Thành viên | Code chính JavaScript ([Issue #4](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/issues/4)) |
-| 3 | Lê Thị Yến Nhi | 2025A0585 | [@nhiltyk66sptin](https://github.com/nhiltyk66sptin) | Thành viên | Nội dung và kiểm thử ([Issue #5](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/issues/5)) |
-| 4 | Nguyễn Phương Thanh | 2025A0594 | [@thanhnpk66sptin-ux](https://github.com/thanhnpk66sptin-ux) | Thành viên | GitHub và tài liệu ([Issue #6](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/issues/6)) |
+| 1 | Nguyễn Công Minh | 2025A0577 | [@minhnck66sptin-glitch](https://github.com/minhnck66sptin-glitch) | Trưởng nhóm | Điều phối nhóm; code chính HTML và CSS |
+| 2 | Lý Hương Giang | 2025A0561 | [@gianglhk66sptin-spec](https://github.com/gianglhk66sptin-spec) | Thành viên | Code chính JavaScript |
+| 3 | Lê Thị Yến Nhi | 2025A0585 | [@nhiltyk66sptin](https://github.com/nhiltyk66sptin) | Thành viên | Nội dung và kiểm thử |
+| 4 | Nguyễn Phương Thanh | 2025A0594 | [@thanhnpk66sptin-ux](https://github.com/thanhnpk66sptin-ux) | Thành viên | GitHub và tài liệu |
 
 Chi tiết nhiệm vụ, minh chứng (issue, branch, Pull Request) và quy ước làm việc xem tại [CONTRIBUTIONS.md](./CONTRIBUTIONS.md).
 
@@ -117,7 +117,7 @@ Bootstrap, Bootstrap Icons, jQuery và Google Fonts được nạp qua CDN nên 
 ## 6. Cấu trúc thư mục
 
 ```text
-ICT0023-K66-Nhom03--Websitenhomhoctapdoan/
+ICT0023-K66-Nhom03--Website-nhom3doanhoctap/
 ├── index.html            # Trang chủ
 ├── ke-hoach.html         # Kế hoạch
 ├── cong-viec.html        # Quản lý công việc
@@ -144,11 +144,11 @@ ICT0023-K66-Nhom03--Websitenhomhoctapdoan/
 
 ## 7. Cách chạy
 
-**Xem trực tuyến:** mở [GitHub Pages](https://minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/).
+**Xem trực tuyến:** mở [GitHub Pages](https://minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/).
 
 **Chạy trên máy:**
 
-1. Giải nén tệp `.zip` (hoặc `git clone https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan.git`).
+1. Giải nén tệp `.zip` (hoặc `git clone https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap.git`).
 2. Mở thư mục bằng Visual Studio Code, chuột phải `index.html` → **Open with Live Server**; hoặc mở thẳng `index.html` bằng trình duyệt.
 3. Cần Internet để tải Bootstrap, jQuery và font.
 
@@ -158,15 +158,7 @@ Không cần cài đặt thêm phần mềm hay máy chủ.
 
 ## 8. Quy trình làm việc trên GitHub
 
-- **Issue:** mỗi thành viên có một issue công việc.
-
-  | Issue | Nội dung |
-  | --- | --- |
-  | [#1](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/issues/1) | Thiết kế giao diện |
-  | [#3](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/issues/3) | Thành viên 1 – Code chính: HTML và CSS |
-  | [#4](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/issues/4) | Thành viên 2 – Code chính: JavaScript |
-  | [#5](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/issues/5) | Thành viên 3 – Nội dung và kiểm thử |
-  | [#6](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/issues/6) | Thành viên 4 – GitHub và tài liệu |
+- **Issue:** công việc của nhóm được ghi và giao bằng issue, xem tại [Issues](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/issues). Mỗi issue nêu rõ nội dung công việc và người phụ trách.
 
 - **Branch:** làm việc trên nhánh riêng theo chức năng hoặc thành viên, hợp nhất vào `main` qua Pull Request và có người khác review.
 - **Commit:** nhỏ, đúng nội dung, theo dạng `loại: mô tả`, ví dụ `feat: thêm bộ lọc công việc`, `fix: sửa menu trên điện thoại`, `docs: cập nhật README`.
@@ -178,11 +170,11 @@ Không cần cài đặt thêm phần mềm hay máy chủ.
 
 | Mốc | Tag | Nội dung | Ngày | Liên kết |
 | --- | --- | --- | --- | --- |
-| v0.1 | `v0.1-y-tuong` | Ý tưởng: mỗi thành viên một trang ý tưởng, chốt đề tài và danh sách chức năng | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/releases/tag/v0.1-y-tuong) |
-| v0.2 | `v0.2-html` | Khung HTML các trang, thanh điều hướng, cấu trúc nội dung | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/releases/tag/v0.2-html) |
-| v0.3 | `v0.3-giao-dien` | Hoàn thiện giao diện CSS, Bootstrap, responsive, giao diện sáng / tối | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/releases/tag/v0.3-giao-dien) |
-| v0.4 | `v0.4-tuong-tac` | JavaScript: tìm kiếm, lọc, sắp xếp, Kanban, form kiểm tra dữ liệu, thống kê | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/releases/tag/v0.4-tuong-tac) |
-| v1.0 | `v1.0-final` | Bản hoàn chỉnh nộp chấm, đã kiểm thử và hoàn thiện tài liệu | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Websitenhomhoctapdoan/releases/tag/v1.0-final) |
+| v0.1 | `v0.1-y-tuong` | Ý tưởng: mỗi thành viên một trang ý tưởng, chốt đề tài và danh sách chức năng | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.1-y-tuong) |
+| v0.2 | `v0.2-html` | Khung HTML các trang, thanh điều hướng, cấu trúc nội dung | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.2-html) |
+| v0.3 | `v0.3-giao-dien` | Hoàn thiện giao diện CSS, Bootstrap, responsive, giao diện sáng / tối | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.3-giao-dien) |
+| v0.4 | `v0.4-tuong-tac` | JavaScript: tìm kiếm, lọc, sắp xếp, Kanban, form kiểm tra dữ liệu, thống kê | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.4-tuong-tac) |
+| v1.0 | `v1.0-final` | Bản hoàn chỉnh nộp chấm, đã kiểm thử và hoàn thiện tài liệu | [dd/mm/2026] | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v1.0-final) |
 
 Các mốc không bị xóa hoặc sửa lại sau khi tạo.
 
