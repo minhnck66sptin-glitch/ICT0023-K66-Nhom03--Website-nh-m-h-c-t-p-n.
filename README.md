@@ -80,8 +80,8 @@ Ngoài ra có các trang ý tưởng của từng thành viên (mốc v0.1): `y-
 
 ## 4. Các mốc phiên bản
 
-| Mốc | Tag | Nội dung | Ngày | Liên kết |
-| --- | --- | --- | --- | --- |
+| Mốc | Tag | Nội dung |  Liên kết |
+| --- | --- | --- |--- |
 | v0.1 | `v0.1-y-tuong` | Ý tưởng: mỗi thành viên một trang ý tưởng, chốt đề tài và danh sách chức năng |[Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.1-y-tuong) |
 | v0.2 | `v0.2-html` | Khung HTML các trang, thanh điều hướng, cấu trúc nội dung |  [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.2-html) |
 | v0.3 | `v0.3-giao-dien` | Hoàn thiện giao diện CSS, Bootstrap, responsive, giao diện sáng / tối | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.3-giao-dien) |
