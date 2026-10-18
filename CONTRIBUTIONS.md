@@ -50,7 +50,7 @@ Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trá
 Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính phân công.
 - Viết trang ý tưởng cá nhân `y-tuong-thanh.html`.
 - Phụ trách:Báo cáo và SOURCES.md.
-- **Tệp phụ trách:** `README.md`, `CONTRIBUTIONS.md`, .
+- **Tệp phụ trách:** `phan-cong.html`, ``, .
 
 ### 2.5. Phần làm chung
 - Chốt đề tài, danh sách chức năng và cấu trúc website (mốc v0.1).
