@@ -37,7 +37,7 @@ Mỗi thành viên làm việc bằng tài khoản GitHub riêng của mình.
 Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính công việc và sản phẩm.
 - Viết trang ý tưởng cá nhân `y-tuong-giang.html`.
 - Phụ trách :CONTRIBUTIONS.md
-- **Tệp phụ trách:** `script.js`, `data.js`, `cong-viec.js`, `phan-cong.js`.
+- **Tệp phụ trách:**`cong-viec.html`,`san-pham.html`, `san-pham.css`, `cong-viec.css`, `cong-viec.js`, `san-pham.js`.
 
 ### 2.3. Lê Thị Yến Nhi 
 Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính nhật ký.
