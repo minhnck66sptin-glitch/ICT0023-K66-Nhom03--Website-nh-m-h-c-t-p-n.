@@ -13,7 +13,7 @@
 
 **Không gian đồ án** là website giúp một nhóm sinh viên theo dõi tiến độ làm đồ án: lập kế hoạch, quản lý công việc, phân công nhiệm vụ cho từng thành viên, lưu các sản phẩm đã hoàn thành và ghi nhật ký hoạt động.
 
-- **Đối tượng sử dụng:** nhóm sinh viên làm đồ án, bài tập nhóm.
+ **Đối tượng sử dụng:** nhóm sinh viên làm đồ án, bài tập nhóm.
 - **Vấn đề giải quyết:** công việc nhóm thường rời rạc, khó biết ai làm gì, việc nào đã xong, việc nào quá hạn. Website gom tất cả vào một nơi, có thống kê và cảnh báo trực quan.
 
 ---
