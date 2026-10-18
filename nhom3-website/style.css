@@ -1,0 +1,685 @@
+/* =====================================
+   style.css – PHẦN DÙNG CHUNG CHO CẢ 6 TRANG
+   (bảng màu, menu, logo, chân trang, chế độ sáng/tối,
+   thành phần dùng ở từ 2 trang trở lên)
+   CSS riêng của từng trang nằm ở: index.css, ke-hoach.css,
+   cong-viec.css, phan-cong.css, san-pham.css, nhat-ky.css
+===================================== */
+
+/* =====================================
+   BẢNG MÀU & CHỮ (đổi màu cả website ở đây)
+===================================== */
+
+:root {
+    --navy: #243b64;        /* xanh navy: menu, tiêu đề, bảng */
+    --navy-dark: #172743;
+    --blue: #4167a8;        /* xanh dịu: mục đang chọn */
+    --blue-bright: #2f6fed; /* xanh sáng: nút chính, liên kết */
+    --accent: #f5a524;      /* vàng hổ phách: điểm nhấn */
+    --footer: #103d78;
+    --bg: #f6f8fc;
+    --line: #e4eaf0;
+    --muted: #5d6c80;
+    --d-bg: #121a28;        /* chế độ tối */
+    --d-card: #1c2740;
+    --d-line: #34425c;
+
+    --bs-primary: #2f6fed;
+    --bs-primary-rgb: 47, 111, 237;
+    --bs-link-color: #2457a7;
+    --bs-link-hover-color: #1a4db8;
+    --bs-body-font-family: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* =====================================
+   CÀI ĐẶT CHUNG
+===================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 76px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #26354d;
+    background-color: var(--bg);
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+img {
+    max-width: 100%;
+}
+
+button, input, select, textarea {
+    font: inherit;
+}
+
+/* =====================================
+   THANH MENU (XANH NAVY) & LOGO BO TRÒN
+===================================== */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+.thanh-menu {
+    position: relative;
+    min-height: 76px;
+    padding: 10px 0;
+    background-color: var(--navy);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Khung hình tròn vừa vặn ôm sát logo */
+
+.thanh-menu .navbar-nav {
+    gap: 3px;
+}
+
+.thanh-menu .nav-link {
+    position: relative;
+    padding: 10px 11px !important;
+    color: #e0e8f7 !important;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.thanh-menu .nav-link:hover {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.thanh-menu .nav-link.active {
+    color: white !important;
+    background-color: var(--blue);
+    font-weight: bold;
+}
+
+.thanh-menu .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.thanh-menu .navbar-toggler:focus {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
+}
+
+/* =====================================
+   NÚT CHUYỂN SÁNG / TỐI (CHỈ ICON)
+===================================== */
+
+.nut-giao-dien {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    color: white;
+    background-color: var(--blue);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.nut-giao-dien:hover {
+    color: white;
+    background-color: #527cc0;
+    transform: scale(1.05);
+}
+
+/* =====================================
+   NỘI DUNG CHUNG & Ô THỐNG KÊ
+===================================== */
+
+main {
+    min-height: 65vh;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+main h1 {
+    line-height: 1.3;
+}
+
+main h2 {
+    line-height: 1.4;
+}
+
+.o-thong-ke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 15px;
+    background-color: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+
+.o-thong-ke span {
+    display: block;
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.o-thong-ke strong {
+    display: block;
+    font-size: 26px;
+    color: var(--navy);
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* =====================================
+   CHÂN TRANG (FOOTER)
+===================================== */
+
+.chan-trang {
+    color: #eaf2ff;
+    background-color: var(--footer);
+    margin-top: 0;
+}
+
+.chan-trang h3 {
+    color: #ffffff;
+}
+
+.chan-trang p {
+    line-height: 1.8;
+}
+
+.chan-trang a {
+    color: #eaf2ff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.chan-trang a:hover {
+    color: #ffd166;
+    text-decoration: underline;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.chan-trang hr {
+    border-color: rgba(255, 255, 255, 0.4);
+    opacity: 1;
+}
+
+/* =====================================
+   CHẾ ĐỘ TỐI (DARK MODE)
+===================================== */
+
+body.dark-mode {
+    color: #e5ebf5;
+    background-color: var(--d-bg);
+}
+
+body.dark-mode main {
+    background-color: var(--d-bg);
+}
+
+body.dark-mode .card, body.dark-mode .modal-content, body.dark-mode .o-thong-ke {
+    color: #e5ebf5;
+    background-color: var(--d-card);
+    border-color: var(--d-line);
+}
+
+body.dark-mode .o-thong-ke strong {
+    color: #77a5ff;
+}
+
+body.dark-mode input, body.dark-mode select, body.dark-mode textarea {
+    color: #e5ebf5;
+    background-color: var(--d-card);
+    border-color: #46556d;
+}
+
+body.dark-mode .text-muted {
+    color: #b5c1d4 !important;
+}
+
+/* =====================================
+   GIAO DIỆN ĐIỆN THOẠI
+===================================== */
+
+@media (max-width: 991px) {
+    .thanh-menu .navbar-collapse {
+            padding: 15px 0 8px;
+    }
+
+    .thanh-menu .navbar-nav {
+            align-items: stretch !important;
+            gap: 5px;
+    }
+
+    .nut-giao-dien {
+            margin-top: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .thanh-menu {
+            min-height: 68px;
+    }
+
+    .logo-icon {
+            width: 40px;
+            height: 40px;
+    }
+}
+
+/* =====================================
+   LOGO BO TRÒN
+===================================== */
+
+.logo-nhom {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 20px;
+    color: white !important;
+    text-decoration: none;
+}
+
+/* Khung tròn cắt góc vừa vặn */
+
+.logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    background-color: #000000;
+    border-radius: 50%;        /* Bo tròn tuyệt đối */
+    overflow: hidden;          /* Cắt 4 góc thừa của file ảnh vuông */
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15); /* Viền sáng nhẹ làm nổi logo */
+}
+
+/* Ảnh logo bên trong */
+
+.logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.35;
+}
+
+.logo-text strong {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+.logo-text small {
+    color: #cbd8f1;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+
+/* ---------- Tiêu đề từng trang ---------- */
+
+.tieu-de-trang {
+    padding: 45px 0 35px;
+    background: linear-gradient(135deg, #eaf2ff, #f5f8ff);
+}
+
+.nhan-tieu-de {
+    display: inline-block;
+    padding: 7px 14px;
+    margin-bottom: 14px;
+    color: #2457a7;
+    background-color: #dce9ff;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.tieu-de-trang h1 {
+    margin-bottom: 10px;
+    font-size: clamp(26px, 4vw, 38px);
+    font-weight: 800;
+}
+
+.tieu-de-trang p {
+    max-width: 720px;
+    margin-bottom: 0;
+    color: var(--muted);
+}
+
+/* ---------- Hộp công cụ ---------- */
+
+.hop-cong-cu {
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+/* ---------- Thông báo nổi ---------- */
+
+.thong-bao-noi {
+    position: fixed;
+    top: 86px;
+    right: 15px;
+    z-index: 2000;
+    width: min(380px, calc(100vw - 30px));
+}
+
+/* ---------- Bảng ---------- */
+
+.bang-the {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.bang-the thead th {
+    color: #ffffff;
+    background-color: var(--navy);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.bang-the td {
+    vertical-align: middle;
+}
+
+/* =====================================
+   CHẾ ĐỘ TỐI (DARK MODE)
+===================================== */
+
+body.dark-mode h2, body.dark-mode .h3 {
+    color: #ffffff !important;
+}
+
+body.dark-mode .tieu-de-trang {
+    background: linear-gradient(135deg, #1b2a45, var(--d-bg));
+}
+
+body.dark-mode .nhan-tieu-de {
+    color: #cfe0ff;
+    background-color: #2b4372;
+}
+
+body.dark-mode .o-thong-ke, body.dark-mode .hop-cong-cu, body.dark-mode .bang-the {
+    color: #e5ebf5;
+    background: var(--d-card);
+    border-color: var(--d-line);
+}
+
+body.dark-mode .bang-the {
+    --bs-table-bg: var(--d-card);
+    --bs-table-color: #e5ebf5;
+    --bs-table-border-color: var(--d-line);
+    --bs-table-striped-bg: #263449;
+}
+
+body.dark-mode .bang-the td, body.dark-mode .bang-the th {
+    color: inherit;
+    background-color: transparent;
+}
+
+body.dark-mode .bang-the thead th {
+    background-color: #2b4372;
+}
+
+body.dark-mode .text-muted {
+    color: #b5c1d4 !important;
+}
+
+/* ---------- Điện thoại: bảng chuyển thành thẻ ---------- */
+
+@media (max-width: 767px) {
+    .bang-the thead {
+            display: none;
+    }
+
+    .bang-the, .bang-the tbody, .bang-the tr, .bang-the td {
+            display: block;
+            width: 100%;
+    }
+
+    .bang-the tr {
+            padding: 10px 0;
+            margin-bottom: 14px;
+            border: 1px solid #d3deef;
+            border-radius: 12px;
+    }
+
+    .bang-the td {
+            display: flex;
+            justify-content: space-between;
+            gap: 14px;
+            padding: 6px 14px;
+            border: none;
+            text-align: right;
+    }
+
+    .bang-the td::before {
+            content: attr(data-label);
+            flex-shrink: 0;
+            color: #6c757d;
+            font-weight: 600;
+            text-align: left;
+    }
+
+    .bang-the select {
+            max-width: 190px;
+    }
+
+    .tieu-de-trang {
+            padding: 32px 0 25px;
+    }
+
+    .thong-bao-noi {
+            top: 76px;
+    }
+}
+
+/* =====================================
+   CHỮ, NÚT, MÀU SẮC DÙNG CHUNG
+===================================== */
+
+body {
+    font-family: var(--bs-body-font-family);
+    font-size: 15.5px;
+    --bs-heading-color: var(--navy);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.35;
+}
+
+.chan-trang {
+    --bs-heading-color: #ffffff;
+}
+
+.tieu-de-trang h1 { color: var(--bs-heading-color);
+}
+
+.tieu-de-trang p { font-size: 1.02rem; line-height: 1.65;
+}
+
+.thanh-menu .nav-link { font-size: 14.5px;
+}
+
+.chan-trang { font-size: 14.5px;
+}
+
+.chan-trang h3 { font-size: 1.05rem;
+}
+
+.form-label { font-size: 0.9rem; font-weight: 600;
+}
+
+.badge { font-weight: 600; letter-spacing: 0.01em;
+}
+
+.small, small { font-size: 0.85em;
+}
+
+.bang-the thead th { font-size: 0.85rem; letter-spacing: 0.02em;
+}
+
+.bang-the td { font-size: 0.93rem;
+}
+
+.btn { font-weight: 500; border-radius: 10px;
+}
+
+.form-control, .form-select, .input-group-text { border-radius: 10px;
+}
+
+.input-group > .form-control { border-radius: 0 10px 10px 0;
+}
+
+.input-group > .input-group-text { border-radius: 10px 0 0 10px;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--blue-bright);
+    --bs-btn-border-color: var(--blue-bright);
+    --bs-btn-hover-bg: #1f5ad6;
+    --bs-btn-hover-border-color: #1f5ad6;
+    --bs-btn-active-bg: #1a4db8;
+    --bs-btn-active-border-color: #1a4db8;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--blue-bright);
+    --bs-btn-border-color: var(--blue-bright);
+    --bs-btn-hover-bg: var(--blue-bright);
+    --bs-btn-hover-border-color: var(--blue-bright);
+    --bs-btn-active-bg: #1f5ad6;
+    --bs-btn-active-border-color: #1f5ad6;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--blue-bright);
+    box-shadow: 0 0 0 0.2rem rgba(47, 111, 237, 0.18);
+}
+
+/* Điểm nhấn màu */
+
+.thanh-menu {
+    background: linear-gradient(90deg, var(--navy), #2c4a85);
+}
+
+.thanh-menu .nav-link.active {
+    box-shadow: inset 0 -3px 0 var(--accent);
+}
+
+.chan-trang {
+    background: linear-gradient(180deg, var(--footer), #0b2c58);
+}
+
+.tieu-de-trang {
+    border-bottom: 1px solid #dbe6f7;
+}
+
+.nhan-tieu-de {
+    color: #8a5a00;
+    background-color: #fff1d6;
+}
+
+.o-thong-ke {
+    border-top: 3px solid var(--blue-bright);
+}
+
+.hop-cong-cu, .card {
+    border-radius: 14px;
+}
+
+/* Chế độ tối: sửa các chỗ chữ bị chìm */
+
+body.dark-mode {
+    --bs-heading-color: #ffffff;
+    --bs-body-color: #e5ebf5;
+    --bs-link-color: #8db4ff;
+    --bs-link-hover-color: #b7d0ff;
+}
+
+body.dark-mode .tieu-de-trang { border-bottom-color: var(--d-line);
+}
+
+body.dark-mode .tieu-de-trang p { color: #b5c1d4;
+}
+
+body.dark-mode .nhan-tieu-de { color: #ffd98a; background-color: #4a3a14;
+}
+
+body.dark-mode .modal-header, body.dark-mode .modal-footer { border-color: var(--d-line);
+}
+
+body.dark-mode .btn-close { filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+body.dark-mode .input-group-text { color: #b5c1d4; background-color: #26365a; border-color: #46556d;
+}
+
+body.dark-mode ::placeholder { color: #8493aa;
+}
+
+body.dark-mode .progress { background-color: #2d3a50;
+}
+
+body.dark-mode .btn-outline-secondary { --bs-btn-color: #c8d3e6; --bs-btn-border-color: #5a6b86; --bs-btn-hover-bg: #34425c; --bs-btn-hover-color: #fff;
+}
+
+body.dark-mode .btn-outline-primary { --bs-btn-color: #8db4ff; --bs-btn-border-color: #5b8cf0;
+}
+
+body.dark-mode .alert-info { color: #cfe0ff; background-color: #1f3354; border-color: #2f4a78;
+}
+
+body.dark-mode .form-check-input { background-color: #26365a; border-color: #5a6b86;
+}
+
+body.dark-mode .form-check-input:checked { background-color: var(--blue-bright); border-color: var(--blue-bright);
+}
+
+body.dark-mode .o-thong-ke { border-top-color: #5b8cf0;
+}
+
+body.dark-mode .thanh-menu { background: linear-gradient(90deg, #1a2a48, #22386a);
+}
+
+body.dark-mode .chan-trang { background: linear-gradient(180deg, #0f2b52, #0a1f3b);
+}
