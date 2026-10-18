@@ -2,9 +2,9 @@
 
 ## Đề tài: Website nhóm học tập / đồ án – “KHÔNG GIAN ĐỒ ÁN”
 
-> **Học phần:** ICT0023 – K66
-> **Nhóm thực hiện:** Nhóm 03
-> **Tên repository:** `ICT0023-K66-Nhom03--Website-nhom3doanhoctap`
+ **Học phần:** ICT0023 – K66
+ **Nhóm thực hiện:** Nhóm 03
+ **Tên repository:** `ICT0023-K66-Nhom03--Website-nhom3doanhoctap`
 
 
 ---
