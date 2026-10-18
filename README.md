@@ -25,15 +25,13 @@
 | 1 | **Repository GitHub** (Public) | Mã nguồn, lịch sử commit, issue, Pull Request, các mốc phiên bản | [github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap) |
 | 2 | **Website (GitHub Pages)** | Website chạy trực tuyến | [minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap](https://minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/) |
 | 3 | **Video YouTube** | Video giới thiệu và demo sản phẩm | (https://youtu.be/KkV2aQmIY4s?si=KwO-IQ_GsWgwrWgD/) |
-| 4 | **Tệp nén `.zip`** | Toàn bộ mã nguồn và sản phẩm, nộp qua LMS | `ICT0023-K66-Nhom03--Website-nhom3doanhoctap.zip` |
-| 5 | **Link Google Drive** | Chỉ dùng nếu tệp `.zip` quá lớn, không tải lên LMS được | [Dán link Google Drive tại đây nếu cần] |
-| 6 | **Lịch sử commit** | Toàn bộ commit trên nhánh `main` | [Commits](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/commits/main) |
-| 7 | **Issue** | Công việc được ghi và giao cho thành viên | [Issues](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/issues) |
-| 8 | **Pull Request** | Các thay đổi được hợp nhất và review | [Pull requests](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/pulls?q=is%3Apr) |
-| 9 | **Branch** | Các nhánh theo chức năng / thành viên | [Branches](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/branches) |
-| 10 | **Mốc phiên bản** | 5 tag / release (xem mục 9) | [Tags](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/tags) · [Releases](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases) |
-| 11 | **Đóng góp của thành viên** | Phân công, minh chứng, quy ước làm việc | [CONTRIBUTIONS.md](./CONTRIBUTIONS.md) |
-| 12 | **Nguồn tài nguyên** | Thư viện, font, hình ảnh sử dụng | [SOURCES.md](./SOURCES.md) |
+| 4 | **Lịch sử commit** | Toàn bộ commit trên nhánh `main` | [Commits](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/commits/main) |
+| 5 | **Issue** | Công việc được ghi và giao cho thành viên | [Issues](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/issues) |
+| 6 | **Pull Request** | Các thay đổi được hợp nhất và review | [Pull requests](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/pulls?q=is%3Apr) |
+| 7 | **Branch** | Các nhánh theo chức năng / thành viên | [Branches](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/branches) |
+| 8 | **Mốc phiên bản** | 5 tag / release (xem mục 9) | [Tags](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/tags) · [Releases](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases) |
+| 9 | **Đóng góp của thành viên** | Phân công, minh chứng, quy ước làm việc | [CONTRIBUTIONS.md](./CONTRIBUTIONS.md) |
+| 10 | **Nguồn tài nguyên** | Thư viện, font, hình ảnh sử dụng | [SOURCES.md](./SOURCES.md) |
 
 
 ---
