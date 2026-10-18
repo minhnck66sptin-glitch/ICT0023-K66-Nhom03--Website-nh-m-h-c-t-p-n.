@@ -86,7 +86,7 @@ Ngoài ra có các trang ý tưởng của từng thành viên (mốc v0.1): `y-
 | v0.2 | `v0.2-html` | Khung HTML các trang, thanh điều hướng, cấu trúc nội dung |  [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.2-html) |
 | v0.3 | `v0.3-giao-dien` | Hoàn thiện giao diện CSS, Bootstrap, responsive, giao diện sáng / tối | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.3-giao-dien) |
 | v0.4 | `v0.4-tuong-tac` | JavaScript: tìm kiếm, lọc, sắp xếp, Kanban, form kiểm tra dữ liệu, thống kê |[Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v0.4-tuong-tac) |
-| v1.0 | `v1.0-final` | Bản hoàn chỉnh nộp chấm, đã kiểm thử và hoàn thiện tài liệu | [Xem]() |
+| v1.0 | `v1.0-final` | Bản hoàn chỉnh nộp chấm, đã kiểm thử và hoàn thiện tài liệu | [Xem](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/releases/tag/v1.0-final) |
 
 
 ---
