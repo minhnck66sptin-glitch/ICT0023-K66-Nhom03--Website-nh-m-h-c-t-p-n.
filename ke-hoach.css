@@ -1,9 +1,4 @@
-/* =====================================
-   ke-hoach.css – CSS RIÊNG CỦA TRANG KẾ HOẠCH
-   Nạp SAU style.css (xem thẻ <link> trong ke-hoach.html)
-===================================== */
 
-/* ---------- Kế hoạch: Dòng thời gian ---------- */
 
 .dong-thoi-gian {
     position: relative;
@@ -58,9 +53,7 @@
 .moc-chua .card { border-left: 5px solid #8a97ab;
 }
 
-/* =====================================
-   CHẾ ĐỘ TỐI (phần riêng của trang này)
-===================================== */
+
 
 body.dark-mode .dong-thoi-gian::before {
     background: var(--d-line);
@@ -70,7 +63,6 @@ body.dark-mode .dau-moc {
     border-color: var(--d-bg);
 }
 
-/* ---------- Điện thoại: bảng chuyển thành thẻ ---------- */
 
 @media (max-width: 767px) {
     .moc-ke-hoach {

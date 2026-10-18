@@ -1,13 +1,3 @@
-// ==================================================
-// SCRIPT.JS – PHẦN DÙNG CHUNG CHO CẢ 6 TRANG
-// Gồm: dữ liệu trong phiên, lưu/khôi phục khi đổi trang,
-// hàm tiện ích, chế độ sáng/tối.
-// JS riêng của từng trang nằm ở: index.js, ke-hoach.js, cong-viec.js,
-// phan-cong.js, san-pham.js, nhat-ky.js (nạp SAU tệp này).
-// Yêu cầu: nạp jQuery, Bootstrap và data.js trước tệp này.
-// ==================================================
-
-// ---------- 1. DỮ LIỆU TRONG PHIÊN ----------
 
 function nhanBan(duLieu) {
     return JSON.parse(JSON.stringify(duLieu));
@@ -24,12 +14,6 @@ function idTiepTheo(danhSach) {
     }, 0) + 1;
 }
 
-
-// ---------- Giữ dữ liệu khi chuyển giữa các trang ----------
-// Không dùng localStorage hay cookie. Dữ liệu và chế độ sáng/tối được giữ tạm trong window.name của
-// tab đang mở, nên bấm menu sang trang khác vẫn còn. Nhấn F5 (tải lại trang) hoặc
-// mở trang trong tab mới thì dữ liệu trở về dữ liệu mẫu.
-
 function luuTrangThai() {
     try {
         window.name = JSON.stringify({
@@ -41,7 +25,7 @@ function luuTrangThai() {
             assignments: assignments
         });
     } catch (loi) {
-        // Không lưu được thì bỏ qua, website vẫn dùng bình thường
+       
     }
 }
 
@@ -58,7 +42,6 @@ function khoiPhucDuLieu() {
         return;
     }
 
-    // Giao diện sáng/tối dùng chung cho mọi trang (kể cả khi tải lại)
     if (daLuu.toi) {
         document.body.classList.add("dark-mode");
     }
@@ -72,7 +55,6 @@ function khoiPhucDuLieu() {
         taiLai = false;
     }
 
-    // Tải lại trang: dữ liệu quay về dữ liệu mẫu (giao diện sáng/tối vẫn giữ)
     if (taiLai) {
         return;
     }
@@ -86,10 +68,6 @@ function khoiPhucDuLieu() {
 khoiPhucDuLieu();
 window.addEventListener("pagehide", luuTrangThai);
 
-
-// ---------- 2. HÀM TIỆN ÍCH ----------
-
-// Chống chèn mã HTML khi hiển thị chữ người dùng nhập
 function esc(text) {
     return String(text === null || text === undefined ? "" : text)
         .replace(/&/g, "&amp;")
@@ -98,8 +76,6 @@ function esc(text) {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#39;");
 }
-
-// Ngày hôm nay dạng yyyy-mm-dd (theo giờ máy)
 function homNay() {
     const d = new Date();
     const thang = String(d.getMonth() + 1).padStart(2, "0");
@@ -107,7 +83,6 @@ function homNay() {
     return d.getFullYear() + "-" + thang + "-" + ngay;
 }
 
-// yyyy-mm-dd -> dd/mm/yyyy
 function dinhDangNgay(giaTri) {
     if (!giaTri) {
         return "Chưa có";
@@ -118,13 +93,12 @@ function dinhDangNgay(giaTri) {
     return p.length === 3 ? p[2] + "/" + p[1] + "/" + p[0] : giaTri;
 }
 
-// Số ngày từ ngày a đến ngày b (âm nghĩa là b trước a)
+
 function soNgayGiua(a, b) {
     const ms = new Date(b + "T00:00:00") - new Date(a + "T00:00:00");
     return Math.round(ms / 86400000);
 }
 
-// Cho biết còn bao nhiêu ngày / đã quá hạn
 function thongTinHan(han, trangThai) {
     if (trangThai === "Hoàn thành") {
         return { chu: "Đã hoàn thành", lop: "text-success", quaHan: false };
@@ -159,7 +133,6 @@ function badgeTrangThai(trangThai) {
     return '<span class="badge ' + lop + '">' + esc(trangThai) + "</span>";
 }
 
-// Thông báo nổi ở góc màn hình
 function showMessage(noiDung, loai) {
     const kieu = loai || "success";
     const hop = $("#thongBaoChung");
@@ -184,12 +157,10 @@ function showMessage(noiDung, loai) {
     }, 3500);
 }
 
-// Gắn sự kiện cho cả trang một lần duy nhất (tránh bị gắn trùng khi chuyển trang)
 function ganSuKien(suKien, selector, ham) {
     $(document).off(suKien + ".trang", selector).on(suKien + ".trang", selector, ham);
 }
 
-// Hiện / xóa lỗi dưới từng ô nhập
 function datLoi(selector, thongDiep) {
     const o = $(selector);
 
@@ -218,7 +189,6 @@ function dongModal(id) {
     }
 }
 
-// Đổ danh sách thành viên vào một ô <select>
 function napThanhVien(selector, coTatCa, nhanMacDinh) {
     const o = $(selector);
 
@@ -234,7 +204,6 @@ function napThanhVien(selector, coTatCa, nhanMacDinh) {
     });
 }
 
-// Đổ danh sách trạng thái vào một ô <select>
 function napTrangThai(selector, coTatCa) {
     const o = $(selector);
 
@@ -257,11 +226,6 @@ function tyLePhanTram(tu, mau) {
     return mau === 0 ? 0 : Math.round((tu / mau) * 100);
 }
 
-
-// ==================================================
-// CHẾ ĐỘ SÁNG / TỐI (dùng chung, nhớ khi đổi trang)
-// ==================================================
-
 function capNhatNutGiaoDien() {
     const toi = $("body").hasClass("dark-mode");
 
@@ -273,10 +237,6 @@ function capNhatNutGiaoDien() {
             : '<i class="bi bi-moon-stars-fill"></i> <span class="theme-text"></span>');
 }
 
-
-// ==================================================
-// KHỞI TẠO CHUNG (nút sáng/tối). Mỗi trang tự khởi tạo ở tệp JS riêng.
-// ==================================================
 
 $(document).ready(function () {
     $("#themeBtn").on("click", function () {

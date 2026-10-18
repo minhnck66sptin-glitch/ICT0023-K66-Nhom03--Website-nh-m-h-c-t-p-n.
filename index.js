@@ -1,10 +1,4 @@
-// ==================================================
-// INDEX.JS – JAVASCRIPT RIÊNG CỦA TRANG TRANG CHỦ
-// Nạp SAU script.js (xem thẻ <script> cuối index.html).
-// Dùng các hàm và biến chung trong script.js, data.js.
-// ==================================================
 
-// ---------- TRANG CHỦ ----------
 
 function khoiTaoTrangChu() {
     const tong = tasks.length;
@@ -19,7 +13,6 @@ function khoiTaoTrangChu() {
     const giaiDoan = plans.filter(function (p) { return p.status === "Hoàn thành"; }).length;
     $("#tkGiaiDoan").text(giaiDoan + "/" + plans.length);
 
-    // Công việc chưa xong có hạn gần nhất
     const chuaXong = tasks
         .filter(function (t) { return t.status !== "Hoàn thành" && t.deadline; })
         .sort(function (a, b) { return a.deadline.localeCompare(b.deadline); });
@@ -41,8 +34,6 @@ function khoiTaoTrangChu() {
     );
 }
 
-
-// Cuộn ngang danh sách thẻ bằng hai nút trái/phải
 function khoiTaoSlider() {
     const $danhSach = $("#danhSachThieuKhoaHoc");
 
@@ -55,8 +46,6 @@ function khoiTaoSlider() {
     });
 }
 
-
-// ---------- Khởi tạo khi trang tải xong ----------
 
 $(document).ready(function () {
     khoiTaoTrangChu();

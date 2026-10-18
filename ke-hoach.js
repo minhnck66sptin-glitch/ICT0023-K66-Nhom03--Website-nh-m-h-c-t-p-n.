@@ -1,10 +1,4 @@
-// ==================================================
-// KE-HOACH.JS – JAVASCRIPT RIÊNG CỦA TRANG KẾ HOẠCH
-// Nạp SAU script.js (xem thẻ <script> cuối ke-hoach.html).
-// Dùng các hàm và biến chung trong script.js, data.js.
-// ==================================================
 
-// ---------- KẾ HOẠCH ----------
 
 function locKeHoach() {
     const tuKhoa = ($("#timKeHoach").val() || "").trim().toLowerCase();
@@ -37,7 +31,6 @@ function hienThiKeHoach() {
     const ds = locKeHoach();
     const hop = $("#danhSachKeHoach");
 
-    // Thống kê
     const dem = function (t) {
         return plans.filter(function (p) { return p.status === t; }).length;
     };
@@ -233,8 +226,6 @@ function khoiTaoKeHoach() {
     });
 }
 
-
-// ---------- Khởi tạo khi trang tải xong ----------
 
 $(document).ready(function () {
     khoiTaoKeHoach();
