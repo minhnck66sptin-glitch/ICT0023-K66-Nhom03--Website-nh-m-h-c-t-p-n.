@@ -1,0 +1,320 @@
+/* =====================================
+   phan-cong.css – CSS RIÊNG CỦA TRANG PHÂN CÔNG
+   Nạp SAU style.css (xem thẻ <link> trong phan-cong.html)
+===================================== */
+
+/* =====================================
+   GIAO DIỆN PHÂN CÔNG NHIỆM VỤ
+===================================== */
+
+.tieu-de-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #ffffff;
+    background: var(--navy);
+    border-radius: 14px;
+    font-size: 28px;
+}
+
+.pc-tabs { display: inline-flex; flex-wrap: wrap; gap: 10px;
+}
+
+.pc-tab {
+    padding: 9px 20px;
+    color: var(--navy);
+    background: #ffffff;
+    border: 1px solid var(--line);
+    font-weight: 600;
+}
+
+.pc-tab:hover { color: var(--blue-bright); border-color: var(--blue-bright);
+}
+
+.pc-tab.active {
+    color: #ffffff;
+    background: var(--blue-bright);
+    border-color: var(--blue-bright);
+}
+
+.pc-tim { width: 100%; max-width: 320px;
+}
+
+/* Cột dùng chung cho dòng tiêu đề và thân thẻ */
+
+.pc-dau-bang, .pc-than {
+    display: grid;
+    grid-template-columns: 44px minmax(96px, 0.8fr) 118px 142px minmax(0, 3fr);
+    column-gap: 0;
+    align-items: stretch;
+}
+
+.pc-hai-cot, .pc-tv {
+    display: grid;
+    grid-template-columns: minmax(190px, 1fr) minmax(0, 1.2fr);
+    gap: 12px;
+    align-items: center;
+}
+
+.pc-dau-bang {
+    padding: 11px 0;
+    margin-bottom: 12px;
+    color: var(--muted);
+    background: #eef3fb;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.pc-dau-bang > * { padding: 0 12px;
+}
+
+.pc-the {
+    margin-bottom: 14px;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.pc-dau {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    background: var(--pc-nen);
+    cursor: pointer;
+}
+
+.pc-dau:focus-visible { outline: 2px solid var(--blue-bright); outline-offset: -2px;
+}
+
+.pc-so {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    color: #ffffff;
+    background: var(--pc-mau);
+    border-radius: 50%;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.pc-ten { font-weight: 700; color: var(--navy); overflow-wrap: anywhere;
+}
+
+.pc-badge {
+    display: inline-block;
+    padding: 2px 12px;
+    color: var(--pc-chu);
+    background: var(--pc-nhat);
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.pc-dau-phai { display: flex; align-items: center; gap: 4px; margin-left: auto;
+}
+
+.pc-xoa {
+    padding: 4px 8px;
+    color: #8a97ab;
+    background: transparent;
+    border: 0;
+    border-radius: 8px;
+}
+
+.pc-xoa:hover { color: #dc3545; background: rgba(220, 53, 69, 0.1);
+}
+
+.pc-mui-ten { color: #8a97ab; transition: transform 0.2s;
+}
+
+.pc-dong .pc-mui-ten { transform: rotate(-90deg);
+}
+
+.pc-dong .pc-than { display: none;
+}
+
+.pc-than { padding: 0;
+}
+
+.pc-than .pc-o {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    padding: 12px;
+    border-left: 1px solid var(--line);
+    font-size: 0.9rem;
+}
+
+.pc-than .pc-o:first-child { border-left: 0; padding-left: 16px;
+}
+
+.pc-than .pc-o .small, .pc-than .pc-o small { white-space: nowrap;
+}
+
+.pc-chon-tt {
+    width: fit-content;
+    max-width: 100%;
+    padding: 3px 12px;
+    background-image: none;
+    appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+    cursor: pointer;
+    color: var(--pc-chu);
+    background-color: var(--pc-nhat);
+    border: 0;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.pc-tv { padding: 4px 0;
+}
+
+.pc-nguoi { display: flex; align-items: center; gap: 10px; font-size: 0.9rem;
+}
+
+.pc-nd { font-size: 0.85rem;
+}
+
+.pc-av {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.pc-av-1 { color: #2457a7; background: #cfe0ff;
+}
+
+.pc-av-2 { color: #1f7a3d; background: #c6ecd2;
+}
+
+.pc-av-3 { color: #7a3fb0; background: #e3d0f7;
+}
+
+.pc-av-4 { color: #b5601a; background: #ffdcb8;
+}
+
+.pc-xong { --pc-nen: #e3f6ea; --pc-mau: #1f9d55; --pc-nhat: #cdeed9; --pc-chu: #177a42;
+}
+
+.pc-dang { --pc-nen: #e7f0ff; --pc-mau: #3b82f6; --pc-nhat: #d4e5ff; --pc-chu: #1f5ad6;
+}
+
+.pc-chua { --pc-nen: #fdeaea; --pc-mau: #d9485b; --pc-nhat: #fbd5da; --pc-chu: #b4283c;
+}
+
+.pc-form-tieu-de { display: flex; align-items: center; gap: 10px; margin-bottom: 18px;
+}
+
+.pc-them-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    color: #ffffff;
+    background: var(--blue-bright);
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.container.pc-rong { max-width: 1440px;
+}
+
+.pc-form { position: sticky; top: 96px;
+}
+
+body.dark-mode .tieu-de-icon { background: #26365a;
+}
+
+body.dark-mode .pc-tab { color: #c8d3e6; background: var(--d-card); border-color: var(--d-line);
+}
+
+body.dark-mode .pc-tab.active { color: #fff; background: var(--blue-bright); border-color: var(--blue-bright);
+}
+
+body.dark-mode .pc-dau-bang { color: #b5c1d4; background: #1b2535; border-color: var(--d-line);
+}
+
+body.dark-mode .pc-the { background: var(--d-card); border-color: var(--d-line);
+}
+
+body.dark-mode .pc-ten { color: #ffffff;
+}
+
+body.dark-mode .pc-than .pc-o { border-left-color: var(--d-line);
+}
+
+body.dark-mode .pc-xong { --pc-nen: #1b3a2e; --pc-nhat: #25523d; --pc-chu: #8ee0b0;
+}
+
+body.dark-mode .pc-dang { --pc-nen: #1c3257; --pc-nhat: #264677; --pc-chu: #9fc2ff;
+}
+
+body.dark-mode .pc-chua { --pc-nen: #3d2430; --pc-nhat: #5a2e3c; --pc-chu: #ffa3b0;
+}
+
+body.dark-mode .pc-chon-tt { color-scheme: dark;
+}
+
+body.dark-mode .pc-av-1 { color: #cfe0ff; background: #2b4372;
+}
+
+body.dark-mode .pc-av-2 { color: #c6ecd2; background: #25523d;
+}
+
+body.dark-mode .pc-av-3 { color: #e3d0f7; background: #4a2f6a;
+}
+
+body.dark-mode .pc-av-4 { color: #ffdcb8; background: #6a4420;
+}
+
+@media (max-width: 1199px) {
+    .pc-form { position: static;
+    }
+}
+
+@media (max-width: 767px) {
+    .pc-dau-bang { display: none;
+    }
+
+    .pc-than { grid-template-columns: 1fr;
+    }
+
+    .pc-than .pc-o, .pc-than .pc-o:first-child { padding: 8px 16px; border-left: 0; align-items: flex-start;
+    }
+
+    .pc-than .pc-o[data-label]::before {
+            content: attr(data-label);
+            display: block;
+            color: var(--muted);
+            font-size: 0.75rem;
+            font-weight: 600;
+    }
+
+    .pc-tv { grid-template-columns: 1fr; gap: 6px; padding: 6px 0;
+    }
+
+    .pc-tim { max-width: none;
+    }
+}

@@ -1,0 +1,43 @@
+/* =====================================
+   san-pham.css – CSS RIÊNG CỦA TRANG SẢN PHẨM
+   Nạp SAU style.css (xem thẻ <link> trong san-pham.html)
+===================================== */
+
+/* ---------- Thẻ sản phẩm ---------- */
+
+.the-san-pham {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.the-san-pham:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.bieu-tuong-tep {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    margin-bottom: 12px;
+    color: #2457a7;
+    background: #e4efff;
+    border-radius: 14px;
+    font-size: 28px;
+}
+
+.card-title {
+    overflow-wrap: anywhere;
+}
+
+/* =====================================
+   CHẾ ĐỘ TỐI (phần riêng của trang này)
+===================================== */
+
+body.dark-mode .bieu-tuong-tep {
+    color: #cfe0ff;
+    background: #2b4372;
+}
