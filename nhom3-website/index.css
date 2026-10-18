@@ -1,0 +1,228 @@
+/* =====================================
+   index.css – CSS RIÊNG CỦA TRANG CHỦ
+   Nạp SAU style.css (xem thẻ <link> trong index.html)
+===================================== */
+
+/* =====================================
+   TRANG CHỦ HERO CAROUSEL
+===================================== */
+
+.trang-chu-hero-carousel {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 76px);
+    overflow: hidden;
+    background-color: var(--navy);
+}
+
+.hero-carousel-img {
+    width: 100%;
+    height: calc(100vh - 76px);
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(1) contrast(1) !important;
+    opacity: 1 !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 65px;
+    z-index: 3;
+    opacity: 0.85;
+}
+
+.carousel-control-icon-custom {
+    width: 46px;
+    height: 46px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 22px;
+    transition: all 0.2s ease;
+}
+
+.carousel-control-prev:hover .carousel-control-icon-custom, .carousel-control-next:hover .carousel-control-icon-custom {
+    background-color: var(--navy);
+    border-color: #ffffff;
+    transform: scale(1.1);
+}
+
+/* =====================================
+   GIAO DIỆN ĐIỆN THOẠI (phần riêng của trang này)
+===================================== */
+
+@media (max-width: 576px) {
+    .trang-chu-hero-carousel, .hero-carousel-img {
+            height: calc(100vh - 68px);
+    }
+}
+
+/* =====================================
+   GIAO DIỆN THẺ SLIDER MỤC ĐỒ ÁN
+===================================== */
+
+.khung-danh-muc-slider {
+    background-color: transparent;
+}
+
+.thanh-cuon-an {
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.thanh-cuon-an::-webkit-scrollbar {
+    display: none;
+}
+
+.cot-the-slider {
+    flex: 0 0 270px;
+    width: 270px;
+    max-width: 270px;
+}
+
+.the-khoa-hoc {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.3s;
+    cursor: pointer;
+}
+
+.the-khoa-hoc:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 22px rgba(36, 59, 100, 0.22);
+}
+
+.khung-anh-khoa-hoc {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #52a5de;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.khung-anh-khoa-hoc img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.phan-chu-khoa-hoc {
+    background-color: var(--navy);
+    padding: 16px 14px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.ten-khoa-hoc {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 4px;
+}
+
+.mo-ta-khoa-hoc {
+    color: #cbd8f1;
+    font-size: 13px;
+    margin: 0;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+.nut-cuon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.nut-cuon-trai {
+    left: -12px;
+    background-color: #2b2b2b;
+}
+
+.nut-cuon-phai {
+    right: -12px;
+    background-color: var(--navy);
+}
+
+.nut-cuon-phai:hover {
+    background-color: #172743;
+}
+
+.nut-cuon:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* =====================================
+   CHẾ ĐỘ TỐI (phần riêng của trang này)
+===================================== */
+
+body.dark-mode .tieu-de-khoi {
+    color: #ffffff !important;
+}
+
+body.dark-mode .khung-danh-muc-slider {
+    background-color: transparent;
+}
+
+body.dark-mode .the-khoa-hoc {
+    border-color: #2d3d54;
+    background-color: var(--d-card);
+}
+
+body.dark-mode .phan-chu-khoa-hoc {
+    background-color: var(--d-card);
+}
+
+body.dark-mode .ten-khoa-hoc {
+    color: #ffffff;
+}
+
+body.dark-mode .mo-ta-khoa-hoc {
+    color: #b5c1d4;
+}
+
+body.dark-mode .nut-cuon-trai, body.dark-mode .nut-cuon-phai {
+    background-color: #2d3d54;
+}
+
+body.dark-mode .nut-cuon:hover {
+    background-color: var(--blue);
+}
+
+/* =====================================
+   ĐIỂM NHẤN MÀU, CHỮ (phần riêng của trang này)
+===================================== */
+
+.ten-khoa-hoc { font-size: 17px;
+}
+
+.mo-ta-khoa-hoc { font-size: 13.5px;
+}
