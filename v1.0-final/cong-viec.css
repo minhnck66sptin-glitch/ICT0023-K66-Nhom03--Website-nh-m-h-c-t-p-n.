@@ -1,0 +1,54 @@
+/* =====================================
+   cong-viec.css – CSS RIÊNG CỦA TRANG CÔNG VIỆC
+   Nạp SAU style.css (xem thẻ <link> trong cong-viec.html)
+===================================== */
+
+/* ---------- Kanban ---------- */
+
+.cot-kanban {
+    height: 100%;
+    padding: 15px;
+    background: #eef3fb;
+    border-radius: 14px;
+}
+
+.cot-kanban h2 {
+    margin-bottom: 15px;
+}
+
+.the-kanban {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+}
+
+/* =====================================
+   CHẾ ĐỘ TỐI (phần riêng của trang này)
+===================================== */
+
+body.dark-mode .the-kanban {
+    color: #e5ebf5;
+    background: var(--d-card);
+    border-color: var(--d-line);
+}
+
+body.dark-mode .cot-kanban {
+    background: #1b2535;
+}
+
+/* Điểm nhấn màu */
+
+.o-canh-bao {
+    border-top-color: #dc3545;
+}
+
+.o-canh-bao strong {
+    color: #dc3545;
+}
+
+/* Chế độ tối: sửa các chỗ chữ bị chìm */
+
+body.dark-mode .o-canh-bao { border-top-color: #ff6b7a;
+}
+
+body.dark-mode .o-canh-bao strong { color: #ff8a96;
+}
