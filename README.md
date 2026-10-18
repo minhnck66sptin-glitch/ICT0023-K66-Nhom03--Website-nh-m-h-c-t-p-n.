@@ -14,7 +14,7 @@
 **Không gian đồ án** là website giúp một nhóm sinh viên theo dõi tiến độ làm đồ án: lập kế hoạch, quản lý công việc, phân công nhiệm vụ cho từng thành viên, lưu các sản phẩm đã hoàn thành và ghi nhật ký hoạt động.
 
  **Đối tượng sử dụng:** nhóm sinh viên làm đồ án, bài tập nhóm.
-- **Vấn đề giải quyết:** công việc nhóm thường rời rạc, khó biết ai làm gì, việc nào đã xong, việc nào quá hạn. Website gom tất cả vào một nơi, có thống kê và cảnh báo trực quan.
+**Vấn đề giải quyết:** công việc nhóm thường rời rạc, khó biết ai làm gì, việc nào đã xong, việc nào quá hạn. Website gom tất cả vào một nơi, có thống kê và cảnh báo trực quan.
 
 ---
 
@@ -56,27 +56,27 @@ Ngoài ra có các trang ý tưởng của từng thành viên (mốc v0.1): `y-
 
 **Trang Công việc**
 
-- Thống kê nhanh: tổng công việc, đang thực hiện, hoàn thành, quá hạn; thanh tiến độ và tỷ lệ hoàn thành.
-- Cảnh báo công việc quá hạn.
-- Tìm kiếm theo tên, người phụ trách, ghi chú, tên tệp.
-- Lọc theo trạng thái, người phụ trách, mức độ ưu tiên (Cao / Trung bình / Thấp).
-- Sắp xếp: tên A–Z, Z–A, hạn gần nhất, hạn xa nhất, ưu tiên cao trước.
-- Hai chế độ hiển thị: **Danh sách** và **Kanban** (Chưa bắt đầu / Đang thực hiện / Hoàn thành).
-- Thêm, sửa công việc bằng cửa sổ (modal) có kiểm tra dữ liệu nhập; xem chi tiết công việc.
-- Ghi tên tệp đính kèm (chỉ lưu tên, không tải lên máy chủ).
-- Nút “Dùng dữ liệu mẫu” và “Đặt lại bộ lọc”.
+Thống kê nhanh: tổng công việc, đang thực hiện, hoàn thành, quá hạn; thanh tiến độ và tỷ lệ hoàn thành.
+ Cảnh báo công việc quá hạn.
+ Tìm kiếm theo tên, người phụ trách, ghi chú, tên tệp.
+ Lọc theo trạng thái, người phụ trách, mức độ ưu tiên (Cao / Trung bình / Thấp).
+ Sắp xếp: tên A–Z, Z–A, hạn gần nhất, hạn xa nhất, ưu tiên cao trước.
+ Hai chế độ hiển thị: **Danh sách** và **Kanban** (Chưa bắt đầu / Đang thực hiện / Hoàn thành).
+ Thêm, sửa công việc bằng cửa sổ (modal) có kiểm tra dữ liệu nhập; xem chi tiết công việc.
+ Ghi tên tệp đính kèm (chỉ lưu tên, không tải lên máy chủ).
+ Nút “Dùng dữ liệu mẫu” và “Đặt lại bộ lọc”.
 
 **Trang Phân công**
 
-- Danh sách nhiệm vụ gồm tên công việc, thời gian, trạng thái, người được giao và nội dung nhiệm vụ của từng người.
-- Chuyển sang **Bảng phân công**: thống kê theo thành viên (số nhiệm vụ, hoàn thành, quá hạn, tỷ lệ hoàn thành).
-- Tìm kiếm nhiệm vụ.
-- Form thêm nhiệm vụ mới: giao cho một hoặc nhiều thành viên, có kiểm tra dữ liệu nhập, có thể sửa nội dung riêng từng người.
+Danh sách nhiệm vụ gồm tên công việc, thời gian, trạng thái, người được giao và nội dung nhiệm vụ của từng người.
+Chuyển sang **Bảng phân công**: thống kê theo thành viên (số nhiệm vụ, hoàn thành, quá hạn, tỷ lệ hoàn thành).
+Tìm kiếm nhiệm vụ.
+Form thêm nhiệm vụ mới: giao cho một hoặc nhiều thành viên, có kiểm tra dữ liệu nhập, có thể sửa nội dung riêng từng người.
 
 **Chung**
 
-- Giao diện responsive (Bootstrap), chuyển chế độ sáng / tối.
-- Thông báo nổi sau các thao tác
+Giao diện responsive (Bootstrap), chuyển chế độ sáng / tối.
+Thông báo nổi sau các thao tác
 
 ## 4. Các mốc phiên bản
 
