@@ -31,7 +31,7 @@ Mỗi thành viên làm việc bằng tài khoản GitHub riêng của mình.
 - Viết trang ý tưởng cá nhân `y-tuong-minh.html`.
 - Phụ trách: README.md.
 -  Quản lý quy trình GitHub: branch, Pull Request, tag / release các mốc, bật GitHub Pages.
-- **Tệp phụ trách:** `*.html`, `style.css`, `cong-viec.css`, `phan-cong.css`.
+- **Tệp phụ trách:** `index.html`,`ke-hoach.html`, `style.css`, `index.css`, `ke-hoach.css`,`index.js`,`ke-hoach.js`,`script.js`.
 
 ### 2.2. Lý Hương Giang 
 Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính công việc và sản phẩm.
