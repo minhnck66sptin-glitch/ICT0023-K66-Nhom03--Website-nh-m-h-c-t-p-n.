@@ -26,35 +26,35 @@ Mỗi thành viên làm việc bằng tài khoản GitHub riêng của mình.
 ## 2. Nhiệm vụ chi tiết
 
 ### 2.1. Nguyễn Công Minh – Trưởng nhóm
-- Điều phối nhóm, tạo repository, tạo issue giao việc cho các thành viên.
-- Xây dựng cấu trúc HTML và giao diện CSS,JS của các trang: thanh điều hướng, chân trang, bố cục, giao diện sáng / tối,phụ trách chính trang chủ và kế hoạch.
-- Viết trang ý tưởng cá nhân `y-tuong-minh.html`.
-- Phụ trách: README.md.
--  Quản lý quy trình GitHub: branch, Pull Request, tag / release các mốc, bật GitHub Pages.
-- **Tệp phụ trách:** `index.html`,`ke-hoach.html`, `style.css`, `index.css`, `ke-hoach.css`,`index.js`,`ke-hoach.js`,`script.js`.
+Điều phối nhóm, tạo repository, tạo issue giao việc cho các thành viên.
+Xây dựng cấu trúc HTML và giao diện CSS,JS của các trang: thanh điều hướng, chân trang, bố cục, giao diện sáng / tối,phụ trách chính trang chủ và kế hoạch.
+ Viết trang ý tưởng cá nhân `y-tuong-minh.html`.
+Phụ trách: README.md.
+  Quản lý quy trình GitHub: branch, Pull Request, tag / release các mốc, bật GitHub Pages.
+ **Tệp phụ trách:** `index.html`,`ke-hoach.html`, `style.css`, `index.css`, `ke-hoach.css`,`index.js`,`ke-hoach.js`,`script.js`.
 
 ### 2.2. Lý Hương Giang 
 Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính công việc và sản phẩm.
-- Viết trang ý tưởng cá nhân `y-tuong-giang.html`.
-- Phụ trách :CONTRIBUTIONS.md
-- **Tệp phụ trách:**`cong-viec.html`,`san-pham.html`, `san-pham.css`, `cong-viec.css`, `cong-viec.js`, `san-pham.js`.
+ Viết trang ý tưởng cá nhân `y-tuong-giang.html`.
+ Phụ trách :CONTRIBUTIONS.md
+ **Tệp phụ trách:**`cong-viec.html`,`san-pham.html`, `san-pham.css`, `cong-viec.css`, `cong-viec.js`, `san-pham.js`.
 
 ### 2.3. Lê Thị Yến Nhi 
 Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính nhật ký.
-- Kiểm thử chức năng và giao diện trên máy tính, điện thoại và các trình duyệt; ghi lại lỗi để nhóm sửa.
-- Viết trang ý tưởng cá nhân `y-tuong-nhi.html` .
-- Phụ trách:PowerPoint và báo cáo
-- **Phụ trách:** `nhat-ky.html`,`nhat-ky.css`,`nhat-ky.js`.
+ Kiểm thử chức năng và giao diện trên máy tính, điện thoại và các trình duyệt; ghi lại lỗi để nhóm sửa.
+  Viết trang ý tưởng cá nhân `y-tuong-nhi.html` .
+  Phụ trách:PowerPoint và báo cáo
+ **Phụ trách:** `nhat-ky.html`,`nhat-ky.css`,`nhat-ky.js`.
 
 ### 2.4. Nguyễn Phương Thanh 
 Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính phân công.
-- Viết trang ý tưởng cá nhân `y-tuong-thanh.html`.
-- Phụ trách:Báo cáo và SOURCES.md.
-- **Tệp phụ trách:** `phan-cong.html`, `phan-cong.css`, `phan-cong.js`.
+ Viết trang ý tưởng cá nhân `y-tuong-thanh.html`.
+Phụ trách:Báo cáo và SOURCES.md.
+**Tệp phụ trách:** `phan-cong.html`, `phan-cong.css`, `phan-cong.js`.
 
 ### 2.5. Phần làm chung
-- Chốt đề tài, danh sách chức năng và cấu trúc website (mốc v0.1).
-- Quay video giới thiệu sản phẩm và kiểm tra repository, Pages, video bằng cửa sổ ẩn danh trước khi nộp.
+Chốt đề tài, danh sách chức năng và cấu trúc website (mốc v0.1).
+ Quay video giới thiệu sản phẩm và kiểm tra repository, Pages, video bằng cửa sổ ẩn danh trước khi nộp.
 ## 3. Minh chứng trên GitHub
 Tất cả minh chứng nằm trong repository, có thể mở trực tiếp:
 
