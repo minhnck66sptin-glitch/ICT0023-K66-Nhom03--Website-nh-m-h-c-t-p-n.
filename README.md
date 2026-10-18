@@ -24,7 +24,7 @@
 | --- | --- | --- | --- |
 | 1 | **Repository GitHub** (Public) | Mã nguồn, lịch sử commit, issue, Pull Request, các mốc phiên bản | [github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap) |
 | 2 | **Website (GitHub Pages)** | Website chạy trực tuyến | [minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap](https://minhnck66sptin-glitch.github.io/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/) |
-| 3 | **Video YouTube** | Video giới thiệu và demo sản phẩm | [Dán link YouTube tại đây] |
+| 3 | **Video YouTube** | Video giới thiệu và demo sản phẩm | (https://youtu.be/KkV2aQmIY4s?si=KwO-IQ_GsWgwrWgD/) |
 | 4 | **Tệp nén `.zip`** | Toàn bộ mã nguồn và sản phẩm, nộp qua LMS | `ICT0023-K66-Nhom03--Website-nhom3doanhoctap.zip` |
 | 5 | **Link Google Drive** | Chỉ dùng nếu tệp `.zip` quá lớn, không tải lên LMS được | [Dán link Google Drive tại đây nếu cần] |
 | 6 | **Lịch sử commit** | Toàn bộ commit trên nhánh `main` | [Commits](https://github.com/minhnck66sptin-glitch/ICT0023-K66-Nhom03--Website-nhom3doanhoctap/commits/main) |
