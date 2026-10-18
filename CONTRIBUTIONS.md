@@ -43,7 +43,7 @@ Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trá
 Xây dựng cấu trúc HTML và giao diện CSS ,JS của các trang:phụ trách chính nhật ký.
 - Kiểm thử chức năng và giao diện trên máy tính, điện thoại và các trình duyệt; ghi lại lỗi để nhóm sửa.
 - Viết trang ý tưởng cá nhân `y-tuong-nhi.html` .
-- Phụ trách:PP và báo cáo
+- Phụ trách:PowerPoint và báo cáo
 - **Phụ trách:** `nhat-ky.html`,`nhat-ky.css`,`nhat-ky.js`.
 
 ### 2.4. Nguyễn Phương Thanh 
